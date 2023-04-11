@@ -1,0 +1,1810 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soft UI Dashboard PRO by Creative Tim</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../../../assets/js/theme/tailwind.config.js"></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/806941754d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Main CSS Link -->
+    <link rel="stylesheet" href="../../../assets/css/style.css" />
+    <!-- Text Editor -->
+    <script
+      src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js"
+      referrerpolicy="origin"
+    ></script>
+  </head>
+
+  <body class="relative dark:bg-[#141728]">
+    <section class="px-3 lg:px-6">
+      <!-- Side bar -->
+      <section class="sidebar" id="mainSidebar">
+        <div class="sidebar-content dark:bg-dark">
+          <!-- Header -->
+          <div class="py-4">
+            <a
+              href="../../../index.html"
+              class="flex items-center gap-2 w-full h-[50px]"
+            >
+              <img
+                src="../../../assets/img/logo-ct-dark.png"
+                alt=""
+                class="w-8 dark-logo"
+              />
+              <img
+                src="../../../assets/img/logo-ct.png"
+                alt=""
+                class="w-8 light-logo hidden"
+              />
+              <span
+                class="text-title dark:text-light/90 font-bold text-sm logo-text"
+              >
+                Soft UI Dashboard PRO
+              </span>
+            </a>
+          </div>
+
+          <div
+            class="bg-gradient-to-r from-light via-[#dddddde8] to-light w-full h-px"
+          ></div>
+
+          <!-- Links -->
+          <div>
+            <!-- DashBoard -->
+            <div class="py-4">
+              <button class="menuToggleBtn w-full flex gap-3 items-center p-3">
+                <span
+                  class="text-sm bg-light dark:bg-gray-300 text-title shadow-md py-1.5 px-2 rounded-md"
+                  id="side-dashboard-icon"
+                >
+                  <i class="fas fa-home"></i>
+                </span>
+                <div
+                  class="sidebar-link-text w-full flex gap-3 items-center justify-between text-paragraph dark:text-light/70"
+                >
+                  <span class="text-sm"> Dashboards </span>
+                  <span class="text-xs arrow">
+                    <i class="fas fa-chevron-down"></i>
+                  </span>
+                </div>
+              </button>
+
+              <div class="pl-6 toggleMenu">
+                <!--  -->
+                <ul class="page-lists text-paragraph dark:text-light/70">
+                  <li>
+                    <a href="" class="page-active mini-link">D</a>
+                    <a href="../../../index.html" class="page-active link">
+                      Default
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="mini-link">A</a>
+                    <a href="" class="link">Automotive</a>
+                  </li>
+                  <li>
+                    <a href="" class="mini-link">S</a>
+                    <a href="" class="link">Smart Home</a>
+                  </li>
+                  <li>
+                    <button
+                      class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                    >
+                      <span class="text-sm mini-link"> V </span>
+                      <span class="text-sm link"> Virtual Reality </span>
+                      <span class="text-xs subArrow">
+                        <i class="fas fa-chevron-down"></i>
+                      </span>
+                    </button>
+
+                    <div class="toggleSubMenu">
+                      <ul>
+                        <li>
+                          <a href="">VR Default</a>
+                        </li>
+                        <li>
+                          <a href="">VR Info</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="" class="mini-link">C</a>
+                    <a href="" class="link">CRM</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Pages s -->
+            <div class="pb-6">
+              <h2
+                class="text-paragraph dark:text-light/60 uppercase text-xs font-bold pb-2 pl-3"
+              >
+                pages
+              </h2>
+
+              <!-- Pages -->
+              <div class="page-link">
+                <button
+                  class="menuToggleBtn w-full flex gap-3 items-center p-3"
+                >
+                  <span
+                    class="text-sm bg-light dark:bg-gray-300 text-title shadow-md py-1.5 px-2 rounded-md"
+                    id="side-dashboard-icon"
+                  >
+                    <i class="fas fa-home"></i>
+                  </span>
+                  <div
+                    class="sidebar-link-text w-full flex gap-3 items-center justify-between"
+                  >
+                    <span class="text-paragraph dark:text-light/70 text-sm">
+                      Pages
+                    </span>
+                    <span class="text-paragraph text-xs arrow">
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </button>
+
+                <div class="pl-5 pt-1 pr-1 toggleMenu">
+                  <ul class="page-lists text-paragraph dark:text-light/70">
+                    <!--  Profile -->
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px] text-sm"
+                      >
+                        <span class="dark:text-light/80 mini-link"> P </span>
+                        <span class="dark:text-light/80 link"> Profile </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link"> P </a>
+                            <a href="./profileOverview.html" class="link">
+                              Profile Overview
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">T</a>
+                            <a href="" class="link"> Teams </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">A</a>
+                            <a href="" class="link"> All Projects </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <!-- Users -->
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-sm mini-link"> U </span>
+                        <span class="text-title text-sm link"> Users </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link"> R </a>
+                            <a href="" class="text-title link"> Reports </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">N</a>
+                            <a href="" class="link">New Users</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <!-- Accounts -->
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-sm mini-link"> A </span>
+                        <span class="text-sm link"> Accounts </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link"> S </a>
+                            <a
+                              href="../../pages/account/settings.html"
+                              class="link"
+                            >
+                              Setting
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">B</a>
+                            <a href="" class="link">Billing</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">I</a>
+                            <a href="" class="link">Invoice</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">S</a>
+                            <a href="" class="link">Security</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <!-- Projects -->
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-sm mini-link"> P </span>
+                        <span class="text-sm link"> Projects </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">G</a>
+                            <a href="" class="link">General</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> T </a>
+                            <a href="" class="link"> Timeline </a>
+                          </li>
+
+                          <li>
+                            <a href="" class="mini-link">N</a>
+                            <a href="" class="link">New Project</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <a href="" class="mini-link">P</a>
+                      <a href="" class="link">Pricing Page</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">M</a>
+                      <a href="" class="link">Message</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">R</a>
+                      <a href="" class="link">RTL</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">W</a>
+                      <a href="" class="link">Widgets</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">C</a>
+                      <a href="" class="link">Charts</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">S</a>
+                      <a href="" class="link">Sweet Alert</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">N</a>
+                      <a href="" class="link">Notifications</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Applications -->
+              <div>
+                <button
+                  class="menuToggleBtn w-full flex gap-3 items-center p-3"
+                >
+                  <span
+                    class="text-sm bg-light dark:bg-gray-300 text-title shadow-md py-1.5 px-2 rounded-md dashboard-icon"
+                    id="side-dashboard-icon"
+                  >
+                    <i class="fas fa-tools"></i>
+                  </span>
+                  <div
+                    class="sidebar-link-text w-full flex gap-3 items-center justify-between"
+                  >
+                    <span class="text-paragraph dark:text-light/70 text-sm">
+                      Applications
+                    </span>
+                    <span
+                      class="text-paragraph dark:text-light/70 text-xs arrow"
+                    >
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </button>
+
+                <div class="pl-5 toggleMenu">
+                  <!--  -->
+                  <ul class="page-lists text-paragraph dark:text-light/70">
+                    <li>
+                      <a href="" class="mini-link">K</a>
+                      <a href="" class="link">Kanban</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">W</a>
+                      <a href="" class="link">Wizard</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">D</a>
+                      <a href="" class="link">Data Tables</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">C</a>
+                      <a href="" class="link">Calender</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">A</a>
+                      <a href="" class="link">Analytics</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- E-commerce -->
+              <div>
+                <button
+                  class="menuToggleBtn w-full bg-light dark:bg-gray-300 flex gap-3 items-center p-3 rounded-lg"
+                  style="box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%)"
+                >
+                  <span
+                    class="text-sm bg-gradient text-light py-1.5 px-2 rounded-md dashboard-icon"
+                    id="side-dashboard-icon"
+                  >
+                    <i class="fas fa-shopping-bag"></i>
+                  </span>
+                  <div
+                    class="sidebar-link-text w-full flex gap-3 items-center justify-between text-paragraph dark:text-light/70"
+                  >
+                    <span class="font-semibold text-title text-sm">
+                      E-commerce
+                    </span>
+                    <span
+                      class="text-paragraph dark:text-light/70 text-xs arrow arrow-rotate"
+                    >
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </button>
+
+                <div class="pl-5 toggleMenu menu-show">
+                  <!--  -->
+                  <ul
+                    class="page-lists text-paragraph dark:text-light/70 text-sm"
+                  >
+                    <li>
+                      <a href="" class="mini-link"> O </a>
+                      <a href="" class="link"> Overview </a>
+                    </li>
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="page-active text-title mini-link">
+                          P
+                        </span>
+                        <span class="page-active text-title link">
+                          Products
+                        </span>
+                        <span class="text-xs subArrow arrow-rotate">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu toggleSubMenu-show">
+                        <ul>
+                          <li>
+                            <a href="" class="page-active text-title mini-link">
+                              N
+                            </a>
+                            <a href="" class="page-active text-title link">
+                              New Products
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> E </a>
+                            <a href="" class="link"> Edit Products </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> P </a>
+                            <a href="" class="link"> Products Page </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> P </a>
+                            <a href="" class="link"> Products Lists </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="mini-link"> O </span>
+                        <span class="link"> Orders </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link"> O </a>
+                            <a href="" class="link"> Order Lists </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> O </a>
+                            <a href="" class="link"> Order Details </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <a href="" class="mini-link">R</a>
+                      <a href="" class="link"> Referral </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Authentication -->
+              <div>
+                <button
+                  class="menuToggleBtn w-full flex gap-3 items-center p-3"
+                >
+                  <span
+                    class="text-sm bg-light dark:bg-gray-300 text-title shadow-md py-1.5 px-2 rounded-md dashboard-icon"
+                    id="side-dashboard-icon"
+                  >
+                    <i class="fas fa-file-alt"></i>
+                  </span>
+                  <div
+                    class="sidebar-link-text w-full flex gap-3 items-center justify-between text-paragraph dark:text-light/70 text-paragraph dark:text-light/70"
+                  >
+                    <span class="text-sm"> Authentication </span>
+                    <span class="text-xs arrow">
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </button>
+
+                <div class="pl-5 toggleMenu">
+                  <!--  -->
+                  <ul class="page-lists text-paragraph dark:text-light/70">
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> S </span>
+                        <span class="text-[15px] link"> Sign In </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">B</a>
+                            <a href="" class="link">Basic</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">C</a>
+                            <a href="" class="link">Cover</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">I</a>
+                            <a href="" class="link">Illustration</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> S </span>
+                        <span class="text-[15px] link"> Sign Up </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">B</a>
+                            <a href="" class="link">Basic</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">C</a>
+                            <a href="" class="link">Cover</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">I</a>
+                            <a href="" class="link">Illustration</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> R </span>
+                        <span class="text-[15px] link"> Reset Password </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">B</a>
+                            <a href="" class="link">Basic</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">C</a>
+                            <a href="" class="link">Cover</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">I</a>
+                            <a href="" class="link">Illustration</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> L </span>
+                        <span class="text-[15px] link"> Lock </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">B</a>
+                            <a href="" class="link">Basic</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">C</a>
+                            <a href="" class="link">Cover</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">I</a>
+                            <a href="" class="link">Illustration</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> 2 </span>
+                        <span class="text-[15px] link">
+                          2-Step Verification
+                        </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">B</a>
+                            <a href="" class="link">Basic</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">C</a>
+                            <a href="" class="link">Cover</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">I</a>
+                            <a href="" class="link">Illustration</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> E </span>
+                        <span class="text-[15px] link"> Error </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">E</a>
+                            <a href="" class="link">Error 404</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">E</a>
+                            <a href="" class="link">Error 500</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="bg-gradient-to-r from-light via-[#dddddde8] to-light w-full h-px"
+            ></div>
+
+            <!-- DOCS -->
+            <div class="py-5">
+              <h2
+                class="text-title dark:text-light/50 uppercase text-xs font-bold pb-2"
+              >
+                DOCS
+              </h2>
+
+              <!-- Basic -->
+              <div>
+                <button
+                  class="menuToggleBtn w-full flex gap-3 items-center p-3"
+                >
+                  <span
+                    class="text-sm bg-light dark:bg-gray-300 text-title py-1.5 px-2 rounded-md shadow-lg"
+                  >
+                    <i class="fas fa-rocket"></i>
+                  </span>
+
+                  <div
+                    class="sidebar-link-text w-full flex gap-3 items-center justify-between text-paragraph dark:text-light/70"
+                  >
+                    <span class="text-sm"> Basic </span>
+                    <span class="text-xs arrow">
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </button>
+
+                <div class="pl-5 toggleMenu">
+                  <!--  -->
+                  <ul class="page-lists text-paragraph dark:text-light/70">
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> G </span>
+                        <span class="text-[15px] link"> Getting Start </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link"> Q </a>
+                            <a href="" class="link"> Quick Start </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> L </a>
+                            <a href="" class="link"> License </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> C </a>
+                            <a href="" class="link"> Contents </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> P </a>
+                            <a href="" class="link"> Build Tools </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> F </span>
+                        <span class="text-[15px] link"> Foundation </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link"> C </a>
+                            <a href="" class="link"> Color </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> G </a>
+                            <a href="" class="link"> Grid </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> T </a>
+                            <a href="" class="link"> Typography </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> I </a>
+                            <a href="" class="link"> Icons </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Components -->
+              <div>
+                <button
+                  class="menuToggleBtn w-full flex gap-3 items-center p-3"
+                >
+                  <span
+                    class="text-sm bg-light dark:bg-gray-300 text-title py-1.5 px-2 rounded-md shadow-lg"
+                  >
+                    <i class="fas fa-user-edit"></i>
+                  </span>
+
+                  <div
+                    class="sidebar-link-text w-full flex gap-3 items-center justify-between text-paragraph dark:text-light/70"
+                  >
+                    <span class="text-sm"> Components </span>
+                    <span class="text-xs arrow">
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </button>
+
+                <div class="pl-5 toggleMenu">
+                  <!--  -->
+                  <ul class="page-lists text-paragraph dark:text-light/70">
+                    <li>
+                      <a href="" class="mini-link">A</a>
+                      <a href="" class="link">Alerts</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">B</a>
+                      <a href="" class="link">Badge</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">B</a>
+                      <a href="" class="link">Buttons</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">C</a>
+                      <a href="" class="link">Card</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">C</a>
+                      <a href="" class="link">Carousel</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">C</a>
+                      <a href="" class="link">Collapse</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">D</a>
+                      <a href="" class="link">DropDown</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">F</a>
+                      <a href="" class="link">Form</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">M</a>
+                      <a href="" class="link">Modal</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">N</a>
+                      <a href="" class="link">Nav</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">N</a>
+                      <a href="" class="link">Navbar</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">P</a>
+                      <a href="" class="link">Pagination</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">p</a>
+                      <a href="" class="link">Popovers</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">p</a>
+                      <a href="" class="link">Progress</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">S</a>
+                      <a href="" class="link">Spinners</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">T</a>
+                      <a href="" class="link">Tables</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">T</a>
+                      <a href="" class="link">Tooltips</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <a
+                  href=""
+                  class="menuToggleBtn w-full flex gap-3 items-center p-3"
+                >
+                  <span
+                    class="text-sm bg-light dark:bg-gray-300 text-title py-1.5 px-2 rounded-md shadow-lg"
+                  >
+                    <i class="fas fa-pallet"></i>
+                  </span>
+
+                  <span class="text-paragraph dark:text-light/70 text-sm link">
+                    Changelog
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Footer -->
+          <div class="side-doc">
+            <span
+              class="text-sm bg-light dark:bg-gray-300 text-title py-1.5 px-2 rounded-md shadow-lg"
+              ><i class="fas fa-gem"> </i>
+            </span>
+            <div class="side-doc-text">
+              <div class="py-4 text-light">
+                <h3 class="font-semibold">Need help?</h3>
+                <p class="text-sm">Please check our docs</p>
+              </div>
+              <button
+                class="w-full bg-light dark:bg-gray-300 py-2 text-xs shadow rounded-lg font-bold"
+              >
+                DOCUMENTATION
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Main Content -->
+      <section class="main-section">
+        <header id="main-header">
+          <div
+            class="header-content z-50 relative lg:flex justify-between md:px-5 py-3 text-light"
+          >
+            <!-- Left -->
+            <div class="flex gap-10 items-center">
+              <div>
+                <div class="items-center text-sm flex gap-1">
+                  <a href="">
+                    <i class="fas fa-home"></i>
+                  </a>
+                  <span>/</span>
+                  <a href="" class="opacity-80">E-commerce</a>
+                  <span>/</span>
+                  <span>New Product</span>
+                </div>
+                <p class="font-bold">New Product</p>
+              </div>
+
+              <button class="hidden lg:block text-xl" onclick="sidebarToggle()">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+
+            <!-- Right -->
+            <div>
+              <div class="flex justify-between gap-4 items-center text-[15px]">
+                <!-- search input -->
+                <div class="relative pt-1">
+                  <input
+                    type="text"
+                    placeholder="Type here..."
+                    class="w-40 lg:w-56 border p-2 rounded-lg text-sm outline-none pl-8"
+                  />
+                  <span class="absolute top-3 left-2.5">
+                    <i class="fas fa-search"></i>
+                  </span>
+                </div>
+
+                <!-- -- -->
+                <div class="flex items-center gap-4">
+                  <!-- Mobile sidebar Toggle Btn -->
+                  <button
+                    class="lg:hidden text-lg"
+                    onclick="mobileSidebarToggle()"
+                    id="mobile-sidebar-btn"
+                  >
+                    <i class="fas fa-bars"></i>
+                  </button>
+                  <!-- Sign in -->
+                  <div>
+                    <a href="" class="flex items-center gap-1 font-semibold">
+                      <i class="fas fa-user"></i>
+                      <span class="hidden md:block">Sign In</span>
+                    </a>
+                  </div>
+
+                  <button
+                    class="rightSidebarShow-btn"
+                    onclick="rightSidebarShow()"
+                  >
+                    <i class="fas fa-cog"></i>
+                  </button>
+                  <div class="relative">
+                    <button
+                      class="notification-btn"
+                      onclick="notificationToggle()"
+                    >
+                      <i class="fas fa-bell"></i>
+                    </button>
+
+                    <!--Notification Dropdown -->
+                    <div
+                      class="notification w-80 shadow bg-light dark:bg-dark p-2 rounded-lg absolute right-[-20px] top-10"
+                      id="notification-dropdown"
+                    >
+                      <ul>
+                        <li
+                          class="cursor-pointer hover:bg-gray-100 p-2 rounded-lg mb-2"
+                        >
+                          <div class="flex gap-3">
+                            <div
+                              class="w-10 h-10 rounded-full overflow-hidden bg-title flex justify-center items-center"
+                            >
+                              <img
+                                src="../../../assets/img/team-2.jpg"
+                                alt=""
+                                class="w-full"
+                              />
+                            </div>
+                            <div>
+                              <h2
+                                class="text-title dark:text-light/80 dark:text-light text-sm"
+                              >
+                                <span class="font-bold">New message</span>
+                                <span> from Laur</span>
+                              </h2>
+                              <p
+                                class="text-xs text-paragraph dark:text-light/70 font-semibold opacity-75"
+                              >
+                                <i class="fas fa-clock"></i>
+                                <span> 13 minutes ago</span>
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          class="cursor-pointer hover:bg-gray-100 p-2 rounded-lg mb-2"
+                        >
+                          <div class="flex gap-3">
+                            <div
+                              class="w-10 h-10 rounded-full overflow-hidden bg-title flex justify-center items-center"
+                            >
+                              <img
+                                src="../../../assets/img/logo-spotify.svg"
+                                alt=""
+                                class="w-full"
+                              />
+                            </div>
+                            <div>
+                              <h2
+                                class="text-title dark:text-light/80 dark:text-light text-sm"
+                              >
+                                <span class="font-bold">New message</span>
+                                <span> from Laur</span>
+                              </h2>
+                              <p
+                                class="text-xs text-paragraph dark:text-light/70 font-semibold opacity-75"
+                              >
+                                <i class="fas fa-clock"></i>
+                                <span> 1 day ago</span>
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          class="cursor-pointer hover:bg-gray-100 p-2 rounded-lg mb-2"
+                        >
+                          <div class="flex gap-3">
+                            <div
+                              class="w-10 h-10 rounded-full overflow-hidden bg-title flex justify-center items-center"
+                            >
+                              <img
+                                src="../../../assets/img/team-2.jpg"
+                                alt=""
+                                class="w-full"
+                              />
+                            </div>
+                            <div>
+                              <h2
+                                class="text-title dark:text-light/80 dark:text-light text-sm"
+                              >
+                                <span class="font-bold">New message</span>
+                                <span> from Laur</span>
+                              </h2>
+                              <p
+                                class="text-xs text-paragraph dark:text-light/70 opacity-75 font-semibold"
+                              >
+                                <i class="fas fa-clock"></i>
+                                <span> 2 days ago</span>
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <!-- header Banner -->
+        <div
+          class="banner mt-[-100px] mb-[140px] md:mb-[100px] lg:mb-[50px] lg:mt-[-60px]"
+        >
+          <div class="p-5 relative h-full">
+            <div
+              class="banner-nav-wrap md:flex justify-between items-center bottom-[-60%] md:bottom-[-40%] lg:bottom-[-60px]"
+            >
+              <!-- Left -->
+              <div class="flex gap-4 items-center">
+                <img
+                  src="../../../assets/img/bruce-mars.jpg"
+                  alt=""
+                  class="w-[70px] h-[70px] rounded-xl"
+                />
+                <div>
+                  <h2 class="text-title dark:text-light text-xl font-semibold">
+                    Alec Thompson
+                  </h2>
+                  <p
+                    class="text-paragraph dark:text-light/70 text-sm font-semibold"
+                  >
+                    CEO / Co-Founder
+                  </p>
+                </div>
+              </div>
+              <!-- Right -->
+              <div class="mt-10 md:mt-0">
+                <ul class="lg:flex items-center gap-8">
+                  <li>
+                    <button
+                      class="banner-nav banner-nav-active w-full md:w-[200px] lg:w-[130px]"
+                    >
+                      <i class="bx bxs-cube text-xl"></i> App
+                    </button>
+                  </li>
+                  <li>
+                    <button class="banner-nav w-full md:w-[200px] lg:w-[130px]">
+                      <i class="bx bxs-food-menu text-xl"></i>Message
+                    </button>
+                  </li>
+                  <li>
+                    <button class="banner-nav w-full md:w-[200px] lg:w-[130px]">
+                      <i class="bx bx-cog text-xl"></i> Setting
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main Body -->
+        <section class="mt-8">
+          <div class="mt-44 lg:mt-20 mb-36">
+            <!-- Bar -->
+            <div class="grid grid-cols-4 lg:w-1/2 mx-auto mb-14 steps">
+              <button class="step-1 active-step" onclick="handelStep1()">
+                <span class="font-semibold">User Info</span>
+              </button>
+              <button class="step-2" onclick="handelStep2()">
+                <span class="font-semibold">Address</span>
+              </button>
+              <button class="step-3" onclick="handelStep3()">
+                <span class="font-semibold">Social</span>
+              </button>
+              <button class="step-4" onclick="handelStep4()">
+                <span class="font-semibold">Profile</span>
+              </button>
+            </div>
+
+            <!-- Form -->
+            <div
+              class="lg:w-[70%] mx-auto bg-white p-6 rounded-xl shadow-[0_8px_26px_-4px_#14141426]"
+            >
+              <!-- Page 1 -->
+              <div class="form_1">
+                <div class="mb-4">
+                  <h2 class="text-xl font-bold text-title">
+                    Product Information
+                  </h2>
+                </div>
+                <form>
+                  <div class="form_container mb-2">
+                    <!-- Name -->
+                    <div class="sm:flex gap-4 mb-4">
+                      <!-- Product Name -->
+                      <div class="sm:w-1/2">
+                        <label
+                          for="Name"
+                          class="text-[13px] text-title/95 font-bold"
+                        >
+                          Name
+                        </label>
+                        <div>
+                          <input
+                            type="text"
+                            name="Name"
+                            placeholder="Eng. Micheal"
+                            class="w-full border px-3 py-2.5 outline-third text-sm text-paragraph rounded-md mt-2"
+                          />
+                        </div>
+                      </div>
+                      <!-- Weight -->
+                      <div class="sm:w-1/2">
+                        <label
+                          for="lastName"
+                          class="text-[13px] text-title/95 font-bold"
+                        >
+                          Weight
+                        </label>
+                        <div>
+                          <input
+                            type="text"
+                            name="Weight"
+                            placeholder="Eng. Prior"
+                            class="w-full border px-3 py-2.5 outline-third text-sm text-paragraph rounded-md mt-2"
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Description /Category -->
+                    <div class="sm:flex gap-4">
+                      <!-- Project Description -->
+                      <div class="sm:w-1/2 projectDescription">
+                        <label for="">
+                          <h2 class="text-[13px] text-title/90 font-bold">
+                            Project Description
+                          </h2>
+                        </label>
+                        <div class="mt-2">
+                          <textarea name="" id="mytextarea">
+                          <span>Type your </span>
+                          <strong>Project Description</strong></span>
+                        </textarea
+                          >
+                        </div>
+                      </div>
+
+                      <!--  -->
+                      <div class="sm:w-1/2">
+                        <!-- Category -->
+                        <div class="mb-4">
+                          <label
+                            for="email"
+                            class="text-[13px] text-title/95 font-bold"
+                          >
+                            Category
+                          </label>
+                          <div>
+                            <input
+                              type="text"
+                              name="email"
+                              placeholder="eg. soft@dashboard.com"
+                              class="w-full border px-3 py-2.5 outline-third text-sm text-paragraph rounded-md mt-2"
+                            />
+                          </div>
+                        </div>
+
+                        <!-- Sizes -->
+                        <div>
+                          <label
+                            for="email"
+                            class="text-[13px] text-title/95 font-bold"
+                          >
+                            Sizes
+                          </label>
+                          <div>
+                            <input
+                              type="text"
+                              name="email"
+                              placeholder="eg. soft@dashboard.com"
+                              class="w-full border px-3 py-2.5 outline-third text-sm text-paragraph rounded-md mt-2"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Buttons -->
+                  <div class="flex justify-end">
+                    <button
+                      onclick="handelNext1()"
+                      type="button"
+                      class="btn_next bg-gradient-gray text-light px-5 py-3 rounded-lg text-sm font-bold"
+                    >
+                      Next
+                      <span class="icon"
+                        ><ion-icon name="arrow-forward-sharp"></ion-icon
+                      ></span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+
+              <!-- Page 2 -->
+              <div class="form_2" style="display: none">
+                <div class="mb-4">
+                  <h2 class="text-xl font-bold text-title">Address</h2>
+                </div>
+                <form>
+                  <div class="form_container">
+                    <!-- Address 1 -->
+                    <div class="mb-4">
+                      <label
+                        for="Address1"
+                        class="text-[13px] text-title/95 font-bold"
+                      >
+                        Address 1
+                      </label>
+                      <div>
+                        <input
+                          type="text"
+                          name="Address1"
+                          placeholder="Eng. Micheal"
+                          class="w-full border px-3 py-2.5 outline-third text-sm text-paragraph rounded-md mt-2"
+                        />
+                      </div>
+                    </div>
+
+                    <!-- Address  2 -->
+                    <div class="mb-4">
+                      <label
+                        for="Address2"
+                        class="text-[13px] text-title/95 font-bold"
+                      >
+                        Address 2
+                      </label>
+                      <div>
+                        <input
+                          type="text"
+                          name="Address2"
+                          placeholder="Eng. Micheal"
+                          class="w-full border px-3 py-2.5 outline-third text-sm text-paragraph rounded-md mt-2"
+                        />
+                      </div>
+                    </div>
+
+                    <!-- City/state/zip -->
+                    <div class="sm:flex gap-4 mb-4">
+                      <div class="sm:w-1/2">
+                        <!-- City -->
+                        <div>
+                          <label
+                            for="City"
+                            class="text-[13px] text-title/95 font-bold"
+                          >
+                            City
+                          </label>
+                          <div>
+                            <input
+                              type="text"
+                              name="City"
+                              placeholder="eg. Tokyo"
+                              class="w-full border px-3 py-2.5 outline-third text-sm text-paragraph rounded-md mt-2"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="sm:w-1/2">
+                        <div class="flex gap-4">
+                          <!-- State -->
+                          <div class="w-1/2">
+                            <label
+                              for="State"
+                              class="text-[13px] text-title/95 font-bold"
+                            >
+                              State
+                            </label>
+                            <div>
+                              <input
+                                type="text"
+                                name="State"
+                                placeholder="State"
+                                class="w-full border px-3 py-2.5 outline-third text-sm text-paragraph rounded-md mt-2"
+                              />
+                            </div>
+                          </div>
+
+                          <!-- Zip -->
+                          <div class="w-1/2">
+                            <label
+                              for="Zip"
+                              class="text-[13px] text-title/95 font-bold"
+                            >
+                              Zip
+                            </label>
+                            <div>
+                              <input
+                                type="text"
+                                name="Zip"
+                                placeholder="Zip"
+                                class="w-full border px-3 py-2.5 outline-third text-sm text-paragraph rounded-md mt-2"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+
+                <!-- Buttons -->
+                <div class="flex justify-between items-center">
+                  <button
+                    onclick="handelBack2()"
+                    type="button"
+                    class="btn_back bg-gray-200 text-title px-5 py-3 rounded-lg text-sm font-bold"
+                  >
+                    <span class="icon"
+                      ><ion-icon name="arrow-back-sharp"></ion-icon></span
+                    >Back
+                  </button>
+                  <button
+                    onclick="handelNext2()"
+                    type="button"
+                    class="btn_next bg-gradient-gray text-light px-5 py-3 rounded-lg text-sm font-bold"
+                  >
+                    Next
+                    <span class="icon"
+                      ><ion-icon name="arrow-forward-sharp"></ion-icon
+                    ></span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Page 3 -->
+              <div class="form_3" style="display: none">
+                <div class="mb-4">
+                  <h2 class="text-xl font-bold text-title">Socials</h2>
+                </div>
+                <form>
+                  <div class="form_container">
+                    <!-- Twitter Handle -->
+                    <div class="mb-4">
+                      <label
+                        for="Twitter"
+                        class="text-[13px] text-title/95 font-bold"
+                      >
+                        Twitter Handle
+                      </label>
+                      <div>
+                        <input
+                          type="text"
+                          name="Twitter"
+                          placeholder="https://..."
+                          class="w-full border px-3 py-2.5 outline-third text-sm text-paragraph rounded-md mt-2"
+                        />
+                      </div>
+                    </div>
+
+                    <!-- Facebook Account -->
+                    <div class="mb-4">
+                      <label
+                        for="Facebook"
+                        class="text-[13px] text-title/95 font-bold"
+                      >
+                        Facebook Account
+                      </label>
+                      <div>
+                        <input
+                          type="text"
+                          name="Facebook"
+                          placeholder="https://..."
+                          class="w-full border px-3 py-2.5 outline-third text-sm text-paragraph rounded-md mt-2"
+                        />
+                      </div>
+                    </div>
+
+                    <!--Instagram Account -->
+                    <div class="mb-4">
+                      <label
+                        for="Instagram"
+                        class="text-[13px] text-title/95 font-bold"
+                      >
+                        Instagram Account
+                      </label>
+                      <div>
+                        <input
+                          type="text"
+                          name="Instagram"
+                          placeholder="https://..."
+                          class="w-full border px-3 py-2.5 outline-third text-sm text-paragraph rounded-md mt-2"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </form>
+
+                <!-- Buttons -->
+                <div class="flex justify-between items-center">
+                  <button
+                    onclick="handelBack3()"
+                    type="button"
+                    class="btn_back bg-gray-200 text-title px-5 py-3 rounded-lg text-sm font-bold"
+                  >
+                    <span class="icon"
+                      ><ion-icon name="arrow-back-sharp"></ion-icon></span
+                    >Back
+                  </button>
+                  <button
+                    onclick="handelNext3()"
+                    type="button"
+                    class="btn_next bg-gradient-gray text-light px-5 py-3 rounded-lg text-sm font-bold"
+                  >
+                    Next
+                    <span class="icon"
+                      ><ion-icon name="arrow-forward-sharp"></ion-icon
+                    ></span>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Page 4 -->
+              <div class="form_4" style="display: none">
+                <div class="mb-4">
+                  <h2 class="text-xl font-bold text-title">Profile</h2>
+                </div>
+                <form>
+                  <div class="form_container">
+                    <!-- Public Email -->
+                    <div class="mb-4">
+                      <label
+                        for="Twitter"
+                        class="text-[13px] text-title/95 font-bold"
+                      >
+                        Public Email
+                      </label>
+                      <div>
+                        <input
+                          type="text"
+                          name="Twitter"
+                          placeholder="use an address you don't use frequently"
+                          class="w-full border px-3 py-2.5 outline-third text-sm text-paragraph rounded-md mt-2"
+                        />
+                      </div>
+                    </div>
+
+                    <!--Bio -->
+                    <div class="mb-4">
+                      <label
+                        for="Instagram"
+                        class="text-[13px] text-title/95 font-bold"
+                      >
+                        Bio
+                      </label>
+                      <div>
+                        <textarea
+                          rows="5"
+                          placeholder="Say a few words about who you are or what you're working on."
+                          class="w-full border px-3 py-2.5 outline-third text-sm text-paragraph rounded-md mt-2"
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+
+                <!-- Buttons -->
+                <div class="flex justify-between items-center">
+                  <button
+                    onclick="handelBack4()"
+                    type="button"
+                    class="btn_back bg-gray-200 text-title px-5 py-3 rounded-lg text-sm font-bold"
+                  >
+                    <span class="icon"
+                      ><ion-icon name="arrow-back-sharp"></ion-icon></span
+                    >Back
+                  </button>
+                  <button
+                    onclick="handelSend()"
+                    type="button"
+                    class="btn_done bg-gradient-gray text-light px-5 py-3 rounded-lg text-sm font-bold"
+                  >
+                    Send
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-------- Footer -------->
+        <footer class="pt-5 pb-6">
+          <div class="lg:flex justify-center lg:justify-between">
+            <div class="mb-5 lg:mb-0">
+              <p
+                class="text-[15px] text-paragraph dark:text-light/70 text-center"
+              >
+                © 2023, made with ❤ by
+                <a href="" class="font-bold">Creative Tim</a> for a better web.
+              </p>
+            </div>
+
+            <nav class="text-center text-paragraph text-sm font-medium">
+              <a href="" class="mr-4 p-2">Creative Tim</a>
+              <a href="" class="mr-4 p-2">About Us</a>
+              <a href="" class="mr-4 p-2">Blog</a>
+              <a href="" class="mr-4 p-2">License</a>
+            </nav>
+          </div>
+        </footer>
+      </section>
+
+      <!------------- Right Side bar -------------->
+      <div
+        class="right-sidebar fixed bg-light dark:bg-dark top-0 right-0 w-[350px] h-[100%] z-[9999] p-6 shadow overflow-auto"
+        id="rightSidebar"
+      >
+        <div class="flex justify-between pb-6 border-b">
+          <div>
+            <h2
+              class="text-title dark:text-light dark:text-light text-xl font-semibold"
+            >
+              Soft UI Configurator
+            </h2>
+            <p
+              class="text-paragraph dark:text-light/70 dark:text-light/80 text-base"
+            >
+              See our dashboard options
+            </p>
+          </div>
+          <div class="text-title dark:text-light dark:text-light/70 text-sm">
+            <button onclick="rightSidebarClose()">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="pt-5">
+          <h2
+            class="text-title dark:text-light dark:text-light/70 text-[17px] font-semibold pb-2"
+          >
+            Sidebar Colors
+          </h2>
+          <div class="flex gap-2">
+            <button
+              class="color color-active bg-gradient w-6 h-6 rounded-full"
+            ></button>
+            <button class="color bg-title w-6 h-6 rounded-full shadow"></button>
+            <button
+              class="color bg-blue-600 w-6 h-6 rounded-full shadow"
+            ></button>
+            <button
+              class="color bg-green-500 w-6 h-6 rounded-full shadow"
+            ></button>
+            <button
+              class="color bg-orange-500 w-6 h-6 rounded-full shadow"
+            ></button>
+            <button
+              class="color bg-red-500 w-6 h-6 rounded-full shadow"
+            ></button>
+          </div>
+        </div>
+
+        <!-- Sidenav Bg Type -->
+        <div class="pt-5">
+          <h2
+            class="text-title dark:text-light dark:text-light text-[17px] font-semibold"
+          >
+            Sidenav Type
+          </h2>
+          <p
+            class="text-paragraph dark:text-light/70 dark:text-light/80 text-sm"
+          >
+            Choose between 2 different sidenav types.
+          </p>
+          <div class="pt-3 flex gap-2">
+            <button
+              class="sidebar-bg-toggle-btn btn-active"
+              id="transparent-btn"
+              onclick="handelTransparentBtn()"
+            >
+              Transparent
+            </button>
+            <button
+              class="unactive-btn sidebar-bg-toggle-btn"
+              id="white-btn"
+              onclick="handelWhiteBtn()"
+            >
+              White
+            </button>
+          </div>
+        </div>
+
+        <!--  Navbar Fixed Toggle -->
+        <div class="pt-5 border-b">
+          <h2
+            class="text-title dark:text-light dark:text-light text-[17px] font-semibold pb-2"
+          >
+            Navbar Fixed
+          </h2>
+          <label class="relative inline-flex items-center mb-3 cursor-pointer">
+            <input
+              type="checkbox"
+              value="true"
+              class="sr-only peer"
+              checked
+              id="fixedNavToggle-btn"
+              onclick="fixedNavToggle(event)"
+            />
+            <div
+              class="w-11 h-6 bg-gray-200 outline-none peer-focus:ring-0 rounded-full peer-checked:after:translate-x-full peer-checked:after:border-white after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-title"
+            ></div>
+          </label>
+        </div>
+
+        <div class="pt-3 border-b">
+          <h2
+            class="text-title dark:text-light dark:text-light text-[17px] font-semibold pb-2"
+          >
+            Sidenav Mini
+          </h2>
+          <label class="relative inline-flex items-center mb-3 cursor-pointer">
+            <input
+              type="checkbox"
+              value=""
+              class="sr-only peer"
+              onclick="sidebarToggle()"
+              id="sidebarToggle-rightSideBtn"
+            />
+            <div
+              class="w-11 h-6 bg-gray-200 outline-none peer-focus:ring-0 rounded-full peer-checked:after:translate-x-full peer-checked:after:border-white after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-title"
+            ></div>
+          </label>
+        </div>
+
+        <div class="pt-3 border-b">
+          <h2
+            class="text-title dark:text-light dark:text-light text-[17px] font-semibold pb-2"
+          >
+            Light/Dark
+          </h2>
+          <label class="relative inline-flex items-center mb-3 cursor-pointer">
+            <input
+              type="checkbox"
+              value=""
+              class="sr-only peer"
+              onclick="themeToggle(event)"
+              id="themeToggleBtn"
+            />
+            <div
+              class="w-11 h-6 bg-gray-200 outline-none peer-focus:ring-0 rounded-full peer-checked:after:translate-x-full peer-checked:after:border-white after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-title"
+            ></div>
+          </label>
+        </div>
+
+        <div class="pt-5">
+          <button
+            class="uppercase w-full py-3.5 text-light bg-gradient mb-4 shadow rounded-lg text-xs font-bold scale-[.98] hover:scale-[1] duration-200"
+          >
+            Buy now
+          </button>
+          <button
+            class="uppercase w-full py-3.5 text-light bg-title mb-4 shadow rounded-lg text-xs font-bold scale-[.98] hover:scale-[1] duration-200"
+          >
+            free demo
+          </button>
+          <button
+            class="uppercase w-full py-3.5 text-title dark:text-light border border-title mb-4 shadow rounded-lg text-xs font-bold scale-[.98] hover:scale-[1] duration-200"
+          >
+            View documentation
+          </button>
+        </div>
+
+        <div class="flex gap-2 justify-center items-center">
+          <div
+            class="border rounded-md text-sm text-title dark:text-light font-semibold"
+          >
+            <a
+              href=""
+              target="_blank"
+              class="border-r px-2 py-1 bg-gray-200 dark:bg-dark inline-block rounded-l-md"
+              ><i class="far fa-star"></i>Star</a
+            >
+            <a href="" target="_blank" class="px-2 py-1 inline-block">30</a>
+          </div>
+        </div>
+
+        <div class="pt-5">
+          <h2 class="text-center text-title dark:text-light font-semibold pb-3">
+            Thank you for sharing!
+          </h2>
+          <div class="flex gap-4 justify-center">
+            <button
+              class="uppercase px-5 py-3 text-light bg-title mb-4 shadow rounded-lg text-xs font-bold scale-[.98] hover:scale-[1] duration-200"
+            >
+              <i class="fab fa-twitter"></i> twitter
+            </button>
+            <button
+              class="uppercase px-5 py-3 text-light bg-title mb-4 shadow rounded-lg text-xs font-bold scale-[.98] hover:scale-[1] duration-200"
+            >
+              <i class="fab fa-facebook-square"></i> facebook
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <button
+      onclick="rightSidebarShow()"
+      class="rightSidebarShow-btn fixed right-[40px] bottom-[50px] w-12 h-12 bg-light flex justify-center items-center shadow-[1px_1px_18px_-8px_#000] rounded-full text-xl text-title z-50"
+    >
+      <i class="fas fa-cog"></i>
+    </button>
+
+    <script src="../../../assets/js/script.js"></script>
+    <script>
+      // Text Editor
+      tinymce.init({
+        selector: "#mytextarea",
+      });
+    </script>
+  </body>
+</html>

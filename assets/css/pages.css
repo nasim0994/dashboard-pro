@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+:root {
+  --primary: #ff0080;
+  --secondary: #7928ca;
+  --gradient-primary: #ff0080b3;
+  --gradient-secondary: #7928ca99;
+  --dropdown-link: #67748e;
+  --dropdown-hover-link: #344767;
+  --dropdown-hover-bg: #e9ecef;
+  --title: #344767;
+  --paragraph: #67748e;
+  --light: #fff;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.bg-icon {
+  background-image: linear-gradient(310deg, var(--secondary), var(--primary));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--light);
+  border-radius: 7px;
+  width: 25px;
+  height: 25px;
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.cover-text-primary-gradient {
+  background: #2152ff;
+  background: linear-gradient(to right, #21d4fd 0%, #2152ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-primary-gradient {
+  background: #ff0080;
+  background: linear-gradient(to left, #7928ca 0%, #ff0080 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.error-text-primary-gradient {
+  background: #ff6690;
+  background: linear-gradient(to left, #d60808 0%, #ff6690 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.error500-text-primary-gradient {
+  background: #fbcf33;
+  background: linear-gradient(310deg, #f53939, #fbcf33);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner-wrap {
+  background-image: linear-gradient(310deg, #14172783, #3a416fa1),
+    url("../img/curved9.jpg");
+  background-size: cover;
+  background-position: 50%;
+}
+
+/*------------ Accordion --------------*/
+.accordion-content {
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+.accordionContentShow {
+  max-height: 500px;
+  transition: all 0.5s;
+}
+.arrow-rotate {
+  transform: rotate(180deg);
+}

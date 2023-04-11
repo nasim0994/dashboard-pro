@@ -1,0 +1,2077 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soft UI Dashboard PRO by Creative Tim</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../../../assets/js/theme/tailwind.config.js"></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/806941754d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Main CSS Link -->
+    <link rel="stylesheet" href="../../../assets/css/style.css" />
+  </head>
+
+  <body class="relative dark:bg-[#141728]">
+    <section class="px-3 lg:px-6">
+      <!-- Side bar -->
+      <section class="sidebar" id="mainSidebar">
+        <div class="sidebar-content dark:bg-dark">
+          <!-- Header -->
+          <div class="py-4 border-b">
+            <a
+              href="../../../index.html"
+              class="flex items-center gap-2 w-full h-[50px]"
+            >
+              <img
+                src="../../../assets/img/logo-ct-dark.png"
+                alt=""
+                class="w-8 dark-logo"
+              />
+              <img
+                src="../../../assets/img/logo-ct.png"
+                alt=""
+                class="w-8 light-logo hidden"
+              />
+              <span
+                class="text-title dark:text-light/90 font-bold text-sm logo-text"
+              >
+                Soft UI Dashboard PRO
+              </span>
+            </a>
+          </div>
+
+          <!-- Links -->
+          <div>
+            <!-- DashBoard -->
+            <div class="py-5">
+              <button class="menuToggleBtn w-full flex gap-3 items-center p-3">
+                <span
+                  class="text-sm bg-light dark:bg-gray-300 text-title shadow-md py-1.5 px-2 rounded-md"
+                  id="side-dashboard-icon"
+                >
+                  <i class="fas fa-home"></i>
+                </span>
+                <div
+                  class="sidebar-link-text w-full flex gap-3 items-center justify-between text-paragraph dark:text-light/70"
+                >
+                  <span class="text-sm"> Dashboards </span>
+                  <span class="text-xs arrow">
+                    <i class="fas fa-chevron-down"></i>
+                  </span>
+                </div>
+              </button>
+
+              <div class="pl-6 toggleMenu">
+                <!--  -->
+                <ul class="page-lists text-paragraph dark:text-light/70">
+                  <li>
+                    <a href="" class="page-active mini-link">D</a>
+                    <a href="../../../index.html" class="page-active link">
+                      Default
+                    </a>
+                  </li>
+                  <li>
+                    <a href="" class="mini-link">A</a>
+                    <a href="" class="link">Automotive</a>
+                  </li>
+                  <li>
+                    <a href="" class="mini-link">S</a>
+                    <a href="" class="link">Smart Home</a>
+                  </li>
+                  <li>
+                    <button
+                      class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                    >
+                      <span class="text-sm mini-link"> V </span>
+                      <span class="text-sm link"> Virtual Reality </span>
+                      <span class="text-xs subArrow">
+                        <i class="fas fa-chevron-down"></i>
+                      </span>
+                    </button>
+
+                    <div class="toggleSubMenu">
+                      <ul>
+                        <li>
+                          <a href="">VR Default</a>
+                        </li>
+                        <li>
+                          <a href="">VR Info</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="" class="mini-link">C</a>
+                    <a href="" class="link">CRM</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Pages s -->
+            <div class="pb-6 border-b">
+              <h2
+                class="text-title dark:text-light/60 uppercase text-xs font-bold pb-2"
+              >
+                pages
+              </h2>
+
+              <!-- Pages -->
+              <div class="page-link">
+                <button
+                  class="menuToggleBtn w-full bg-light dark:bg-gray-300 flex gap-3 items-center p-3 rounded-lg"
+                  style="box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%)"
+                >
+                  <span
+                    class="text-sm bg-gradient text-light py-1.5 px-2 rounded-md dashboard-icon"
+                    id="side-dashboard-icon"
+                  >
+                    <i class="fas fa-home"></i>
+                  </span>
+                  <div
+                    class="sidebar-link-text w-full flex gap-3 items-center justify-between"
+                  >
+                    <span class="font-semibold text-title text-sm">
+                      Pages
+                    </span>
+                    <span class="text-paragraph text-xs arrow arrow-rotate">
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </button>
+
+                <div class="pl-5 pt-1 pr-1 toggleMenu menu-show">
+                  <ul class="page-lists text-paragraph dark:text-light/70">
+                    <!--  Profile -->
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px] text-sm"
+                      >
+                        <span class="dark:text-light/80 mini-link"> P </span>
+                        <span class="dark:text-light/80 link"> Profile </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link"> P </a>
+                            <a href="./profileOverview.html" class="link">
+                              Profile Overview
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">T</a>
+                            <a href="" class="link"> Teams </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">A</a>
+                            <a href="" class="link"> All Projects </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <!-- Users -->
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-sm mini-link"> U </span>
+                        <span class="text-title text-sm link"> Users </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link"> R </a>
+                            <a href="" class="link"> Reports </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">N</a>
+                            <a href="" class="text-title link">New Users</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <!-- Accounts -->
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-sm mini-link"> A </span>
+                        <span class="text-sm link"> Accounts </span>
+                        <span class="text-xs subArrow arrow-rotate">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link"> S </a>
+                            <a href="" class="link"> Setting </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">B</a>
+                            <a href="" class="link">Billing</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">I</a>
+                            <a href="" class="link">Invoice</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">S</a>
+                            <a href="" class="link">Security</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <!-- Projects -->
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="page-active text-title text-sm mini-link">
+                          P
+                        </span>
+                        <span class="page-active text-title text-sm link">
+                          Projects
+                        </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu toggleSubMenu-show">
+                        <ul>
+                          <li>
+                            <a href="" class="page-active text-title mini-link"
+                              >G</a
+                            >
+                            <a href="" class="page-active text-title link"
+                              >General</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> T </a>
+                            <a href="" class="link"> Timeline </a>
+                          </li>
+
+                          <li>
+                            <a href="" class="mini-link">N</a>
+                            <a href="" class="link">New Project</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <a href="" class="mini-link">P</a>
+                      <a href="" class="link">Pricing Page</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">M</a>
+                      <a href="" class="link">Message</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">R</a>
+                      <a href="" class="link">RTL</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">W</a>
+                      <a href="" class="link">Widgets</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">C</a>
+                      <a href="" class="link">Charts</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">S</a>
+                      <a href="" class="link">Sweet Alert</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">N</a>
+                      <a href="" class="link">Notifications</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Applications -->
+              <div>
+                <button
+                  class="menuToggleBtn w-full flex gap-3 items-center p-3"
+                >
+                  <span
+                    class="text-sm bg-light dark:bg-gray-300 text-title shadow-md py-1.5 px-2 rounded-md dashboard-icon"
+                    id="side-dashboard-icon"
+                  >
+                    <i class="fas fa-tools"></i>
+                  </span>
+                  <div
+                    class="sidebar-link-text w-full flex gap-3 items-center justify-between"
+                  >
+                    <span class="text-paragraph dark:text-light/70 text-sm">
+                      Applications
+                    </span>
+                    <span
+                      class="text-paragraph dark:text-light/70 text-xs arrow"
+                    >
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </button>
+
+                <div class="pl-5 toggleMenu">
+                  <!--  -->
+                  <ul class="page-lists text-paragraph dark:text-light/70">
+                    <li>
+                      <a href="" class="mini-link">K</a>
+                      <a href="" class="link">Kanban</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">W</a>
+                      <a href="" class="link">Wizard</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">D</a>
+                      <a href="" class="link">Data Tables</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">C</a>
+                      <a href="" class="link">Calender</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">A</a>
+                      <a href="" class="link">Analytics</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- E-commerce -->
+              <div>
+                <button
+                  class="menuToggleBtn w-full flex gap-3 items-center p-3"
+                >
+                  <span
+                    class="text-sm bg-light dark:bg-gray-300 text-title shadow-md py-1.5 px-2 rounded-md dashboard-icon"
+                    id="side-dashboard-icon"
+                  >
+                    <i class="bx bxs-shopping-bags"></i>
+                  </span>
+                  <div
+                    class="sidebar-link-text w-full flex gap-3 items-center justify-between text-paragraph dark:text-light/70"
+                  >
+                    <span class="text-sm"> E-commerce </span>
+                    <span
+                      class="text-paragraph dark:text-light/70 text-xs arrow"
+                    >
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </button>
+
+                <div class="pl-5 toggleMenu">
+                  <!--  -->
+                  <ul class="page-lists text-paragraph dark:text-light/70">
+                    <li>
+                      <a href="" class="mini-link"> O </a>
+                      <a href="" class="link"> Overview </a>
+                    </li>
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> P </span>
+                        <span class="text-[15px] link"> Products </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link"> N </a>
+                            <a href="" class="link"> New Products </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> E </a>
+                            <a href="" class="link"> Edit Products </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> P </a>
+                            <a href="" class="link"> Products Page </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> P </a>
+                            <a href="" class="link"> Products Lists </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> O </span>
+                        <span class="text-[15px] link"> Orders </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link"> O </a>
+                            <a
+                              href="../../ecommerce/orders/orderList.html"
+                              class="link"
+                            >
+                              Order Lists
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> O </a>
+                            <a href="" class="link"> Order Details </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <a href="" class="mini-link">R</a>
+                      <a href="" class="link"> Referral </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Authentication -->
+              <div>
+                <button
+                  class="menuToggleBtn w-full flex gap-3 items-center p-3"
+                >
+                  <span
+                    class="text-sm bg-light dark:bg-gray-300 text-title shadow-md py-1.5 px-2 rounded-md dashboard-icon"
+                    id="side-dashboard-icon"
+                  >
+                    <i class="fas fa-file-alt"></i>
+                  </span>
+                  <div
+                    class="sidebar-link-text w-full flex gap-3 items-center justify-between text-paragraph dark:text-light/70 text-paragraph dark:text-light/70"
+                  >
+                    <span class="text-sm"> Authentication </span>
+                    <span class="text-xs arrow">
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </button>
+
+                <div class="pl-5 toggleMenu">
+                  <!--  -->
+                  <ul class="page-lists text-paragraph dark:text-light/70">
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> S </span>
+                        <span class="text-[15px] link"> Sign In </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">B</a>
+                            <a href="" class="link">Basic</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">C</a>
+                            <a href="" class="link">Cover</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">I</a>
+                            <a href="" class="link">Illustration</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> S </span>
+                        <span class="text-[15px] link"> Sign Up </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">B</a>
+                            <a href="" class="link">Basic</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">C</a>
+                            <a href="" class="link">Cover</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">I</a>
+                            <a href="" class="link">Illustration</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> R </span>
+                        <span class="text-[15px] link"> Reset Password </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">B</a>
+                            <a href="" class="link">Basic</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">C</a>
+                            <a href="" class="link">Cover</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">I</a>
+                            <a href="" class="link">Illustration</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> L </span>
+                        <span class="text-[15px] link"> Lock </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">B</a>
+                            <a href="" class="link">Basic</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">C</a>
+                            <a href="" class="link">Cover</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">I</a>
+                            <a href="" class="link">Illustration</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> 2 </span>
+                        <span class="text-[15px] link">
+                          2-Step Verification
+                        </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">B</a>
+                            <a href="" class="link">Basic</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">C</a>
+                            <a href="" class="link">Cover</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">I</a>
+                            <a href="" class="link">Illustration</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> E </span>
+                        <span class="text-[15px] link"> Error </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">E</a>
+                            <a href="" class="link">Error 404</a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">E</a>
+                            <a href="" class="link">Error 500</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- DOCS -->
+            <div class="py-5">
+              <h2
+                class="text-title dark:text-light/50 uppercase text-xs font-bold pb-2"
+              >
+                DOCS
+              </h2>
+
+              <!-- Basic -->
+              <div>
+                <button
+                  class="menuToggleBtn w-full flex gap-3 items-center p-3"
+                >
+                  <span
+                    class="text-sm bg-light dark:bg-gray-300 text-title py-1.5 px-2 rounded-md shadow-lg"
+                  >
+                    <i class="bx bxs-rocket"></i>
+                  </span>
+
+                  <div
+                    class="sidebar-link-text w-full flex gap-3 items-center justify-between text-paragraph dark:text-light/70"
+                  >
+                    <span class="text-sm"> Basic </span>
+                    <span class="text-xs arrow">
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </button>
+
+                <div class="pl-5 toggleMenu">
+                  <!--  -->
+                  <ul class="page-lists text-paragraph dark:text-light/70">
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> G </span>
+                        <span class="text-[15px] link"> Getting Start </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link"> Q </a>
+                            <a href="" class="link"> Quick Start </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> L </a>
+                            <a href="" class="link"> License </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> C </a>
+                            <a href="" class="link"> Contents </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> P </a>
+                            <a href="" class="link"> Build Tools </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> F </span>
+                        <span class="text-[15px] link"> Foundation </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link"> C </a>
+                            <a href="" class="link"> Color </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> G </a>
+                            <a href="" class="link"> Grid </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> T </a>
+                            <a href="" class="link"> Typography </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> I </a>
+                            <a href="" class="link"> Icons </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Components -->
+              <div>
+                <button
+                  class="menuToggleBtn w-full flex gap-3 items-center p-3"
+                >
+                  <span
+                    class="text-sm bg-light dark:bg-gray-300 text-title py-1.5 px-2 rounded-md shadow-lg"
+                  >
+                    <i class="fas fa-user-edit"></i>
+                  </span>
+
+                  <div
+                    class="sidebar-link-text w-full flex gap-3 items-center justify-between text-paragraph dark:text-light/70"
+                  >
+                    <span class="text-sm"> Components </span>
+                    <span class="text-xs arrow">
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </button>
+
+                <div class="pl-5 toggleMenu">
+                  <!--  -->
+                  <ul class="page-lists text-paragraph dark:text-light/70">
+                    <li>
+                      <a href="" class="mini-link">A</a>
+                      <a href="" class="link">Alerts</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">B</a>
+                      <a href="" class="link">Badge</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">B</a>
+                      <a href="" class="link">Buttons</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">C</a>
+                      <a href="" class="link">Card</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">C</a>
+                      <a href="" class="link">Carousel</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">C</a>
+                      <a href="" class="link">Collapse</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">D</a>
+                      <a href="" class="link">DropDown</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">F</a>
+                      <a href="" class="link">Form</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">M</a>
+                      <a href="" class="link">Modal</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">N</a>
+                      <a href="" class="link">Nav</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">N</a>
+                      <a href="" class="link">Navbar</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">P</a>
+                      <a href="" class="link">Pagination</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">p</a>
+                      <a href="" class="link">Popovers</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">p</a>
+                      <a href="" class="link">Progress</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">S</a>
+                      <a href="" class="link">Spinners</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">T</a>
+                      <a href="" class="link">Tables</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">T</a>
+                      <a href="" class="link">Tooltips</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <a
+                  href=""
+                  class="menuToggleBtn w-full flex gap-3 items-center p-3"
+                >
+                  <span
+                    class="text-sm bg-light dark:bg-gray-300 text-title py-1.5 px-2 rounded-md shadow-lg"
+                  >
+                    <i class="fas fa-pallet"></i>
+                  </span>
+
+                  <span class="text-paragraph dark:text-light/70 text-sm link">
+                    Changelog
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Footer -->
+          <div class="side-doc">
+            <span
+              class="text-sm bg-light dark:bg-gray-300 text-title py-1.5 px-2 rounded-md shadow-lg"
+              ><i class="fas fa-gem"> </i>
+            </span>
+            <div class="side-doc-text">
+              <div class="py-4 text-light">
+                <h3 class="font-semibold">Need help?</h3>
+                <p class="text-sm">Please check our docs</p>
+              </div>
+              <button
+                class="w-full bg-light dark:bg-gray-300 py-2 text-xs shadow rounded-lg font-bold"
+              >
+                DOCUMENTATION
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Main Content -->
+      <section class="main-section">
+        <header id="main-header" class="mt-5">
+          <div
+            class="dashboard-header-content lg:flex justify-between md:px-5 py-3 text-title/90 dark:text-light/70"
+          >
+            <!-- Left -->
+            <div class="flex gap-10 items-center">
+              <div>
+                <div class="items-center text-sm flex gap-1">
+                  <a href="" class="opacity-50">
+                    <i class="fas fa-home"></i>
+                  </a>
+                  <span>/</span>
+                  <a href="" class="opacity-50">Pages</a>
+                  <span>/</span>
+                  <a href="" class="opacity-50">Projects</a>
+                  <span>/</span>
+                  <span>General</span>
+                </div>
+                <p class="font-bold">General</p>
+              </div>
+
+              <button class="hidden lg:block text-xl" onclick="sidebarToggle()">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+
+            <!-- Right -->
+            <div>
+              <div class="flex justify-between gap-4 items-center text-[15px]">
+                <!-- search input -->
+                <div class="relative pt-1">
+                  <input
+                    type="text"
+                    placeholder="Type here..."
+                    class="w-40 lg:w-56 border p-2 rounded-lg text-sm outline-none pl-8 text-title"
+                  />
+                  <span class="absolute top-3 left-2.5 text-title">
+                    <i class="fas fa-search"></i>
+                  </span>
+                </div>
+
+                <!-- -- -->
+                <div class="flex items-center gap-4">
+                  <!-- Mobile sidebar Toggle Btn -->
+                  <button
+                    class="lg:hidden text-lg text-title/90"
+                    onclick="mobileSidebarToggle()"
+                    id="mobile-sidebar-btn"
+                  >
+                    <i class="fas fa-bars"></i>
+                  </button>
+                  <!-- Sign in -->
+                  <div>
+                    <a href="" class="flex items-center gap-1 font-semibold">
+                      <i class="fas fa-user"></i>
+                      <span class="hidden md:block">Sign In</span>
+                    </a>
+                  </div>
+
+                  <button
+                    class="rightSidebarShow-btn"
+                    onclick="rightSidebarShow()"
+                  >
+                    <i class="fas fa-cog"></i>
+                  </button>
+                  <div class="relative">
+                    <button
+                      class="notification-btn"
+                      onclick="notificationToggle()"
+                    >
+                      <i class="fas fa-bell"></i>
+                    </button>
+
+                    <!--Notification Dropdown -->
+                    <div
+                      class="notification w-80 shadow bg-light dark:bg-dark p-2 rounded-lg absolute right-[-20px] top-10 z-50"
+                      id="notification-dropdown"
+                    >
+                      <ul>
+                        <li
+                          class="cursor-pointer hover:bg-gray-100 p-2 rounded-lg mb-2"
+                        >
+                          <div class="flex gap-3">
+                            <div
+                              class="w-10 h-10 rounded-full overflow-hidden bg-title flex justify-center items-center"
+                            >
+                              <img
+                                src="../../../assets/img/team-2.jpg"
+                                alt=""
+                                class="w-full"
+                              />
+                            </div>
+                            <div>
+                              <h2 class="text-title/80 dark:text-light text-sm">
+                                <span class="font-bold">New message</span>
+                                <span> from Laur</span>
+                              </h2>
+                              <p
+                                class="text-xs text-paragraph font-semibold opacity-75"
+                              >
+                                <i class="fas fa-clock"></i>
+                                <span> 13 minutes ago</span>
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          class="cursor-pointer hover:bg-gray-100 p-2 rounded-lg mb-2"
+                        >
+                          <div class="flex gap-3">
+                            <div
+                              class="w-10 h-10 rounded-full overflow-hidden bg-title flex justify-center items-center"
+                            >
+                              <img
+                                src="../../../assets/img/logo-spotify.svg"
+                                alt=""
+                                class="w-full"
+                              />
+                            </div>
+                            <div>
+                              <h2 class="text-title/80 dark:text-light text-sm">
+                                <span class="font-bold">New message</span>
+                                <span> from Laur</span>
+                              </h2>
+                              <p
+                                class="text-xs text-paragraph font-semibold opacity-75"
+                              >
+                                <i class="fas fa-clock"></i>
+                                <span> 1 day ago</span>
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          class="cursor-pointer hover:bg-gray-100 p-2 rounded-lg mb-2"
+                        >
+                          <div class="flex gap-3">
+                            <div
+                              class="w-10 h-10 rounded-full overflow-hidden bg-title flex justify-center items-center"
+                            >
+                              <img
+                                src="../../../assets/img/team-1.jpg"
+                                alt=""
+                                class="w-full"
+                              />
+                            </div>
+                            <div>
+                              <h2 class="text-title/80 dark:text-light text-sm">
+                                <span class="font-bold">New message</span>
+                                <span> from Laur</span>
+                              </h2>
+                              <p
+                                class="text-xs text-paragraph opacity-75 font-semibold"
+                              >
+                                <i class="fas fa-clock"></i>
+                                <span> 2 days ago</span>
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <!--Main Body -->
+        <section>
+          <nav class="py-10">
+            <ul class="md:flex gap-14 text-title ml-10">
+              <li class="py-3 md:py-0 text-center">
+                <a href="">Messages </a>
+              </li>
+              <li class="py-3 md:py-0 text-center">
+                <a href="">Social</a>
+              </li>
+              <li class="py-3 md:py-0 text-center">
+                <a href="">Notifications</a>
+              </li>
+              <li class="py-3 md:py-0 text-center">
+                <a href="">Backup</a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Row 1 -->
+          <div class="mt-6 xl:flex gap-6">
+            <!-- Left -->
+            <div class="xl:w-2/3 mb-6 xl:mb-0">
+              <div class="lg:flex gap-6">
+                <!-- Earnings -->
+                <div
+                  class="lg:w-1/3 bg-gradient-to-l from-bluePrimary to-blueSecondary rounded-xl py-10 flex flex-col justify-center text-center text-light earnings-card"
+                >
+                  <h2 class="text-2xl font-bold mb-4">Earnings</h2>
+                  <h2 class="text-3xl font-bold">$15,800</h2>
+                  <p
+                    class="bg-gradient-gray p-1 rounded text-[10px] font-semibold w-1/2 mx-auto my-5 opacity-90"
+                  >
+                    +15% SINCE LAST WEEK
+                  </p>
+                  <button
+                    class="border border-light/40 py-1.5 text-xs font-bold w-28 mx-auto rounded-md bg-light bg-opacity-10 hover:bg-opacity-0 duration-300"
+                  >
+                    view more
+                  </button>
+                </div>
+
+                <div class="lg:w-2/3 grid grid-cols-2 gap-6 mt-6 lg:mt-0">
+                  <!-- Money/Sessions -->
+                  <div>
+                    <div
+                      class="bg-light shadow-[0_8px_26px_-4px_#14141426] p-3 rounded-xl mb-6"
+                    >
+                      <div class="flex gap-4">
+                        <span
+                          class="w-12 h-12 bg-gradient-to-tl from-grayPrimary to-graySecondary rounded-lg flex justify-center items-center text-light"
+                          ><i class="fas fa-coins"></i
+                        ></span>
+                        <div>
+                          <p class="text-paragraph text-sm">Today's Money</p>
+                          <h2 class="text-xl font-semibold text-title">
+                            $53,000
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="bg-light shadow-[0_8px_26px_-4px_#14141426] p-3 rounded-xl"
+                    >
+                      <div class="flex gap-4">
+                        <span
+                          class="w-12 h-12 bg-gradient-to-tl from-grayPrimary to-graySecondary rounded-lg flex justify-center items-center text-light"
+                          ><i class="fas fa-coins"></i
+                        ></span>
+                        <div>
+                          <p class="text-paragraph text-sm">Today's Money</p>
+                          <h2 class="text-xl font-semibold text-title">
+                            $53,000
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- User/Signup -->
+                  <div>
+                    <div
+                      class="bg-light shadow-[0_8px_26px_-4px_#14141426] p-3 rounded-xl mb-6"
+                    >
+                      <div class="flex gap-4">
+                        <span
+                          class="w-12 h-12 bg-gradient-to-tl from-grayPrimary to-graySecondary rounded-lg flex justify-center items-center text-light"
+                          ><i class="fas fa-coins"></i
+                        ></span>
+                        <div>
+                          <p class="text-paragraph text-sm">Today's Money</p>
+                          <h2 class="text-xl font-semibold text-title">
+                            $53,000
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div
+                      class="bg-light shadow-[0_8px_26px_-4px_#14141426] p-3 rounded-xl"
+                    >
+                      <div class="flex gap-4">
+                        <span
+                          class="w-12 h-12 bg-gradient-to-tl from-grayPrimary to-graySecondary rounded-lg flex justify-center items-center text-light"
+                          ><i class="fas fa-coins"></i
+                        ></span>
+                        <div>
+                          <p class="text-paragraph text-sm">Today's Money</p>
+                          <h2 class="text-xl font-semibold text-title">
+                            $53,000
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right -->
+            <div
+              class="xl:w-1/3 bg-light shadow-[0_8px_26px_-4px_#14141426] p-6 rounded-xl"
+            >
+              <!-- Head -->
+              <div class="flex justify-between items-center mb-5">
+                <div class="flex gap-2 items-center">
+                  <img
+                    src="../../../assets/img/team-4.jpg"
+                    alt=""
+                    class="w-10 h-10 rounded-lg"
+                  />
+                  <div>
+                    <h2 class="text-title font-semibold text-sm">
+                      Lucas Prila
+                    </h2>
+                    <p class="text-paragraph text-xs">2h ago</p>
+                  </div>
+                </div>
+                <button
+                  class="bg-gradient-to-l from-bluePrimary to-blueSecondary px-2 py-1.5 text-xs font-bold text-light rounded-md"
+                >
+                  RECOMMENDATION
+                </button>
+              </div>
+
+              <div>
+                <h2 class="text-title font-semibold mb-4">
+                  I need a Ruby developer for my new website.
+                </h2>
+                <p class="text-paragraph text-sm">
+                  The website was initially built in PHP, I need a professional
+                  ruby programmer to shift it.
+                </p>
+              </div>
+
+              <div class="bg-gray-100 rounded-lg p-4 flex justify-between mt-5">
+                <h2>
+                  <span class="text-base text-paragraph">$</span>
+                  <span class="text-2xl text-title font-semibold">3,000</span>
+                  <span class="text-base text-paragraph font-medium"
+                    >/month</span
+                  >
+                </h2>
+
+                <button
+                  class="border border-grayPrimary text-title px-5 py-2.5 text-xs font-bold rounded-md scale-[.98] hover:scale-[1] duration-200"
+                >
+                  Apply
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="mt-6 xl:flex gap-6">
+            <!-- Todo Lists -->
+            <div class="xl:w-2/3 mb-6 xl:mb-0">
+              <div
+                class="bg-light shadow-[0_8px_26px_-4px_#14141426] p-6 rounded-xl"
+              >
+                <!-- Head -->
+                <div class="flex justify-between items-center">
+                  <h2 class="text-title font-semibold">To do list</h2>
+                  <p class="text-paragraph text-[15px]">23 - 30 March 2020</p>
+                </div>
+
+                <div
+                  class="w-full h-px bg-gradient-to-l from-light via-gray-200 to-light mt-6 mb-3"
+                ></div>
+
+                <!-- Lists -->
+                <div>
+                  <!-- 1 -->
+                  <div class="border-l-[3px] border-primary pl-6 pb-6">
+                    <!-- Head -->
+                    <div class="flex justify-between items-center">
+                      <div class="flex gap-2 items-center">
+                        <input
+                          id="checked-checkbox"
+                          type="checkbox"
+                          value=""
+                          class="w-[18px] h-[18px] cursor-pointer text-grayPrimary rounded-xl accent-graySecondary"
+                        />
+                        <h2 class="text-title/90 font-semibold text-[15px]">
+                          Check status
+                        </h2>
+                      </div>
+                      <div>
+                        <div class="relative">
+                          <button class="text-paragraph teamToggleBtn">
+                            <i class="fas fa-ellipsis-h"></i>
+                          </button>
+
+                          <!-- Toggle Options -->
+                          <ul
+                            class="bg-light p-3 rounded-lg absolute top-1.5 right-full w-44 text-sm text-paragraph shadow-[0_8px_26px_-4px_#14141426] hidden teamToggle-Option"
+                          >
+                            <li>
+                              <a
+                                href=""
+                                class="px-3 block py-2 rounded-lg hover:bg-gray-100"
+                              >
+                                Edit Team
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href=""
+                                class="px-3 block py-2 rounded-lg hover:bg-gray-100"
+                              >
+                                Add Member
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href=""
+                                class="px-3 block py-2 rounded-lg hover:bg-gray-100"
+                              >
+                                See Details
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Content -->
+                    <div class="grid grid-cols-3 mt-4 pl-6">
+                      <div class="text-paragraph font-semibold">
+                        <p class="text-xs mb-1">Date</p>
+                        <h2 class="text-[13px] font-bold">24 March 2019</h2>
+                      </div>
+                      <div class="text-paragraph font-semibold">
+                        <p class="text-xs mb-1">Project</p>
+                        <h2 class="text-[13px] font-bold">2414_VR4sf3#</h2>
+                      </div>
+                      <div class="text-paragraph font-semibold">
+                        <p class="text-xs mb-1">Company</p>
+                        <h2 class="text-[13px] font-bold">Creative Tim</h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="w-full h-px bg-gradient-to-l from-light via-gray-200 to-light"
+                  ></div>
+
+                  <!-- 2 -->
+                  <div
+                    class="border-l-[3px] border-graySecondary mt-6 pl-6 pb-6"
+                  >
+                    <!-- Head -->
+                    <div class="flex justify-between items-center">
+                      <div class="flex gap-2 items-center">
+                        <input
+                          checked
+                          id="checked-checkbox"
+                          type="checkbox"
+                          value=""
+                          class="w-[18px] h-[18px] cursor-pointer text-grayPrimary rounded-xl accent-graySecondary"
+                        />
+                        <h2 class="text-title/90 font-semibold text-[15px]">
+                          Management discussion
+                        </h2>
+                      </div>
+                      <div>
+                        <div class="relative">
+                          <button class="text-paragraph teamToggleBtn">
+                            <i class="fas fa-ellipsis-h"></i>
+                          </button>
+
+                          <!-- Toggle Options -->
+                          <ul
+                            class="bg-light p-3 rounded-lg absolute top-1.5 right-full w-44 text-sm text-paragraph shadow-[0_8px_26px_-4px_#14141426] hidden teamToggle-Option"
+                          >
+                            <li>
+                              <a
+                                href=""
+                                class="px-3 block py-2 rounded-lg hover:bg-gray-100"
+                              >
+                                Edit Team
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href=""
+                                class="px-3 block py-2 rounded-lg hover:bg-gray-100"
+                              >
+                                Add Member
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href=""
+                                class="px-3 block py-2 rounded-lg hover:bg-gray-100"
+                              >
+                                See Details
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Content -->
+                    <div class="grid grid-cols-3 mt-4 pl-6">
+                      <div class="text-paragraph font-semibold">
+                        <p class="text-xs mb-1">Date</p>
+                        <h2 class="text-[13px] font-bold">24 March 2019</h2>
+                      </div>
+                      <div class="text-paragraph font-semibold">
+                        <p class="text-xs mb-1">Project</p>
+                        <h2 class="text-[13px] font-bold">2414_VR4sf3#</h2>
+                      </div>
+                      <div class="text-paragraph font-semibold">
+                        <p class="text-xs mb-1">Company</p>
+                        <h2 class="text-[13px] font-bold">Creative Tim</h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="w-full h-px bg-gradient-to-l from-light via-gray-200 to-light"
+                  ></div>
+
+                  <!-- 3 -->
+                  <div
+                    class="border-l-[3px] border-redSecondary mt-6 pl-6 pb-6"
+                  >
+                    <!-- Head -->
+                    <div class="flex justify-between items-center">
+                      <div class="flex gap-2 items-center">
+                        <input
+                          checked
+                          id="checked-checkbox"
+                          type="checkbox"
+                          value=""
+                          class="w-[18px] h-[18px] cursor-pointer text-grayPrimary rounded-xl accent-graySecondary"
+                        />
+                        <h2 class="text-title/90 font-semibold text-[15px]">
+                          New channel distribution
+                        </h2>
+                      </div>
+                      <div>
+                        <div class="relative">
+                          <button class="text-paragraph teamToggleBtn">
+                            <i class="fas fa-ellipsis-h"></i>
+                          </button>
+
+                          <!-- Toggle Options -->
+                          <ul
+                            class="bg-light p-3 rounded-lg absolute top-1.5 right-full w-44 text-sm text-paragraph shadow-[0_8px_26px_-4px_#14141426] hidden teamToggle-Option"
+                          >
+                            <li>
+                              <a
+                                href=""
+                                class="px-3 block py-2 rounded-lg hover:bg-gray-100"
+                              >
+                                Edit Team
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href=""
+                                class="px-3 block py-2 rounded-lg hover:bg-gray-100"
+                              >
+                                Add Member
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href=""
+                                class="px-3 block py-2 rounded-lg hover:bg-gray-100"
+                              >
+                                See Details
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Content -->
+                    <div class="grid grid-cols-3 mt-4 pl-6">
+                      <div class="text-paragraph font-semibold">
+                        <p class="text-xs mb-1">Date</p>
+                        <h2 class="text-[13px] font-bold">24 March 2019</h2>
+                      </div>
+                      <div class="text-paragraph font-semibold">
+                        <p class="text-xs mb-1">Project</p>
+                        <h2 class="text-[13px] font-bold">2414_VR4sf3#</h2>
+                      </div>
+                      <div class="text-paragraph font-semibold">
+                        <p class="text-xs mb-1">Company</p>
+                        <h2 class="text-[13px] font-bold">Creative Tim</h2>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="w-full h-px bg-gradient-to-l from-light via-gray-200 to-light"
+                  ></div>
+
+                  <!-- 4 -->
+                  <div
+                    class="border-l-[3px] border-blueSecondary mt-6 pl-6 pb-6"
+                  >
+                    <!-- Head -->
+                    <div class="flex justify-between items-center">
+                      <div class="flex gap-2 items-center">
+                        <input
+                          id="checked-checkbox"
+                          type="checkbox"
+                          value=""
+                          class="w-[18px] h-[18px] cursor-pointer text-grayPrimary rounded-xl accent-graySecondary"
+                        />
+                        <h2 class="text-title/90 font-semibold text-[15px]">
+                          IOS App development
+                        </h2>
+                      </div>
+                      <div>
+                        <div class="relative">
+                          <button class="text-paragraph teamToggleBtn">
+                            <i class="fas fa-ellipsis-h"></i>
+                          </button>
+
+                          <!-- Toggle Options -->
+                          <ul
+                            class="bg-light p-3 rounded-lg absolute top-1.5 right-full w-44 text-sm text-paragraph shadow-[0_8px_26px_-4px_#14141426] hidden teamToggle-Option"
+                          >
+                            <li>
+                              <a
+                                href=""
+                                class="px-3 block py-2 rounded-lg hover:bg-gray-100"
+                              >
+                                Edit Team
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href=""
+                                class="px-3 block py-2 rounded-lg hover:bg-gray-100"
+                              >
+                                Add Member
+                              </a>
+                            </li>
+                            <li>
+                              <a
+                                href=""
+                                class="px-3 block py-2 rounded-lg hover:bg-gray-100"
+                              >
+                                See Details
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Content -->
+                    <div class="grid grid-cols-3 mt-4 pl-6">
+                      <div class="text-paragraph font-semibold">
+                        <p class="text-xs mb-1">Date</p>
+                        <h2 class="text-[13px] font-bold">24 March 2019</h2>
+                      </div>
+                      <div class="text-paragraph font-semibold">
+                        <p class="text-xs mb-1">Project</p>
+                        <h2 class="text-[13px] font-bold">2414_VR4sf3#</h2>
+                      </div>
+                      <div class="text-paragraph font-semibold">
+                        <p class="text-xs mb-1">Company</p>
+                        <h2 class="text-[13px] font-bold">Creative Tim</h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Chart -->
+            <div class="xl:w-1/3">
+              <div
+                class="bg-light shadow-[0_8px_26px_-4px_#14141426] p-6 rounded-xl mb-6"
+              >
+                <!-- Head -->
+                <div class="flex justify-between items-center mb-5">
+                  <div class="flex gap-4 items-center">
+                    <span
+                      class="w-12 h-12 rounded-lg text-light bg-gradient-to-tl from-bluePrimary via-bluePrimary to-blueSecondary shadow flex justify-center items-center"
+                    >
+                      <i class="far fa-calendar-alt text-xl"></i>
+                    </span>
+                    <div>
+                      <p class="text-paragraph font-semibold text-[15px]">
+                        Tasks
+                      </p>
+                      <h2 class="text-title font-bold text-xl">480</h2>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="text-paragraph text-xs mb-1 font-semibold">60%</p>
+                    <div>
+                      <div class="bg-gray-200 w-32 h-1 rounded relative">
+                        <div
+                          class="absolute w-[60%] bg-gradient-to-l from-bluePrimary via-bluePrimary to-blueSecondary top-[50%] translate-y-[-50%] left-0 h-1.5 rounded"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Line Chart -->
+                <div class="chart">
+                  <canvas
+                    id="general-chart-line"
+                    class="chart-canvas"
+                    height="100"
+                  ></canvas>
+                </div>
+              </div>
+
+              <div
+                class="bg-light shadow-[0_8px_26px_-4px_#14141426] p-6 rounded-xl"
+              >
+                <div class="flex justify-between items-start">
+                  <div>
+                    <div class="flex gap-4 items-center">
+                      <span
+                        class="w-12 h-12 rounded-lg text-light bg-gradient-to-tl from-bluePrimary via-bluePrimary to-blueSecondary shadow flex justify-center items-center"
+                      >
+                        <i class="far fa-calendar-alt text-xl"></i>
+                      </span>
+                      <div>
+                        <p class="text-paragraph font-semibold text-[15px]">
+                          Projects
+                        </p>
+                        <h2 class="text-title font-bold text-xl">115</h2>
+                      </div>
+                    </div>
+
+                    <div class="text-xs font-semibold text-paragraph mt-5">
+                      <div class="mb-1 flex gap-2 items-center">
+                        <i
+                          class="fas fa-circle text-bluePrimary text-[8px]"
+                        ></i>
+                        <span>Done</span>
+                      </div>
+                      <div class="flex gap-2 items-center">
+                        <i
+                          class="fas fa-circle text-[#a8b8d8] text-[8px] shadow-lg"
+                        ></i>
+                        <span>In progress</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div>
+                    <!-- Line Chart -->
+                    <div class="chart">
+                      <canvas
+                        id="chart-doughnut"
+                        class="chart-canvas"
+                        height="150"
+                        width="200"
+                      ></canvas>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-------- Footer -------->
+        <footer class="pt-5 pb-6">
+          <div class="lg:flex justify-center lg:justify-between">
+            <div class="mb-5 lg:mb-0">
+              <p
+                class="text-[15px] text-paragraph dark:text-light/70 text-center"
+              >
+                © 2023, made with ❤ by
+                <a href="" class="font-bold">Creative Tim</a> for a better web.
+              </p>
+            </div>
+
+            <nav class="text-center text-paragraph text-sm font-medium">
+              <a href="" class="mr-4 p-2">Creative Tim</a>
+              <a href="" class="mr-4 p-2">About Us</a>
+              <a href="" class="mr-4 p-2">Blog</a>
+              <a href="" class="mr-4 p-2">License</a>
+            </nav>
+          </div>
+        </footer>
+      </section>
+
+      <!------------- Right Side bar -------------->
+      <div
+        class="right-sidebar fixed bg-light dark:bg-dark top-0 right-0 w-[350px] h-[100%] z-[9999] p-6 shadow overflow-auto"
+        id="rightSidebar"
+      >
+        <div class="flex justify-between pb-6 border-b">
+          <div>
+            <h2
+              class="text-title dark:text-light dark:text-light text-xl font-semibold"
+            >
+              Soft UI Configurator
+            </h2>
+            <p
+              class="text-paragraph dark:text-light/70 dark:text-light/80 text-base"
+            >
+              See our dashboard options
+            </p>
+          </div>
+          <div class="text-title dark:text-light dark:text-light/70 text-sm">
+            <button onclick="rightSidebarClose()">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="pt-5">
+          <h2
+            class="text-title dark:text-light dark:text-light/70 text-[17px] font-semibold pb-2"
+          >
+            Sidebar Colors
+          </h2>
+          <div class="flex gap-2">
+            <button
+              class="color color-active bg-gradient w-6 h-6 rounded-full"
+            ></button>
+            <button class="color bg-title w-6 h-6 rounded-full shadow"></button>
+            <button
+              class="color bg-blue-600 w-6 h-6 rounded-full shadow"
+            ></button>
+            <button
+              class="color bg-green-500 w-6 h-6 rounded-full shadow"
+            ></button>
+            <button
+              class="color bg-orange-500 w-6 h-6 rounded-full shadow"
+            ></button>
+            <button
+              class="color bg-red-500 w-6 h-6 rounded-full shadow"
+            ></button>
+          </div>
+        </div>
+
+        <!-- Sidenav Bg Type -->
+        <div class="pt-5">
+          <h2
+            class="text-title dark:text-light dark:text-light text-[17px] font-semibold"
+          >
+            Sidenav Type
+          </h2>
+          <p
+            class="text-paragraph dark:text-light/70 dark:text-light/80 text-sm"
+          >
+            Choose between 2 different sidenav types.
+          </p>
+          <div class="pt-3 flex gap-2">
+            <button
+              class="sidebar-bg-toggle-btn btn-active"
+              id="transparent-btn"
+              onclick="handelTransparentBtn()"
+            >
+              Transparent
+            </button>
+            <button
+              class="unactive-btn sidebar-bg-toggle-btn"
+              id="white-btn"
+              onclick="handelWhiteBtn()"
+            >
+              White
+            </button>
+          </div>
+        </div>
+
+        <!--  Navbar Fixed Toggle -->
+        <div class="pt-5 border-b">
+          <h2
+            class="text-title dark:text-light dark:text-light text-[17px] font-semibold pb-2"
+          >
+            Navbar Fixed
+          </h2>
+          <label class="relative inline-flex items-center mb-3 cursor-pointer">
+            <input
+              type="checkbox"
+              value="true"
+              class="sr-only peer"
+              checked
+              id="fixedNavToggle-btn"
+              onclick="fixedNavToggle(event)"
+            />
+            <div
+              class="w-11 h-6 bg-gray-200 outline-none peer-focus:ring-0 rounded-full peer-checked:after:translate-x-full peer-checked:after:border-white after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-title"
+            ></div>
+          </label>
+        </div>
+
+        <div class="pt-3 border-b">
+          <h2
+            class="text-title dark:text-light dark:text-light text-[17px] font-semibold pb-2"
+          >
+            Sidenav Mini
+          </h2>
+          <label class="relative inline-flex items-center mb-3 cursor-pointer">
+            <input
+              type="checkbox"
+              value=""
+              class="sr-only peer"
+              onclick="sidebarToggle()"
+              id="sidebarToggle-rightSideBtn"
+            />
+            <div
+              class="w-11 h-6 bg-gray-200 outline-none peer-focus:ring-0 rounded-full peer-checked:after:translate-x-full peer-checked:after:border-white after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-title"
+            ></div>
+          </label>
+        </div>
+
+        <div class="pt-3 border-b">
+          <h2
+            class="text-title dark:text-light dark:text-light text-[17px] font-semibold pb-2"
+          >
+            Light/Dark
+          </h2>
+          <label class="relative inline-flex items-center mb-3 cursor-pointer">
+            <input
+              type="checkbox"
+              value=""
+              class="sr-only peer"
+              onclick="themeToggle(event)"
+              id="themeToggleBtn"
+            />
+            <div
+              class="w-11 h-6 bg-gray-200 outline-none peer-focus:ring-0 rounded-full peer-checked:after:translate-x-full peer-checked:after:border-white after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-title"
+            ></div>
+          </label>
+        </div>
+
+        <div class="pt-5">
+          <button
+            class="uppercase w-full py-3.5 text-light bg-gradient mb-4 shadow rounded-lg text-xs font-bold scale-[.98] hover:scale-[1] duration-200"
+          >
+            Buy now
+          </button>
+          <button
+            class="uppercase w-full py-3.5 text-light bg-title mb-4 shadow rounded-lg text-xs font-bold scale-[.98] hover:scale-[1] duration-200"
+          >
+            free demo
+          </button>
+          <button
+            class="uppercase w-full py-3.5 text-title dark:text-light border border-title mb-4 shadow rounded-lg text-xs font-bold scale-[.98] hover:scale-[1] duration-200"
+          >
+            View documentation
+          </button>
+        </div>
+
+        <div class="flex gap-2 justify-center items-center">
+          <div
+            class="border rounded-md text-sm text-title dark:text-light font-semibold"
+          >
+            <a
+              href=""
+              target="_blank"
+              class="border-r px-2 py-1 bg-gray-200 dark:bg-dark inline-block rounded-l-md"
+              ><i class="far fa-star"></i>Star</a
+            >
+            <a href="" target="_blank" class="px-2 py-1 inline-block">30</a>
+          </div>
+        </div>
+
+        <div class="pt-5">
+          <h2 class="text-center text-title dark:text-light font-semibold pb-3">
+            Thank you for sharing!
+          </h2>
+          <div class="flex gap-4 justify-center">
+            <button
+              class="uppercase px-5 py-3 text-light bg-title mb-4 shadow rounded-lg text-xs font-bold scale-[.98] hover:scale-[1] duration-200"
+            >
+              <i class="fab fa-twitter"></i> twitter
+            </button>
+            <button
+              class="uppercase px-5 py-3 text-light bg-title mb-4 shadow rounded-lg text-xs font-bold scale-[.98] hover:scale-[1] duration-200"
+            >
+              <i class="fab fa-facebook-square"></i> facebook
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <button
+      onclick="rightSidebarShow()"
+      class="rightSidebarShow-btn fixed right-[40px] bottom-[50px] w-12 h-12 bg-light flex justify-center items-center shadow-[1px_1px_18px_-8px_#000] rounded-full text-xl text-title z-50"
+    >
+      <i class="fas fa-cog"></i>
+    </button>
+
+    <script src="../../../assets/js/script.js"></script>
+
+    <!-- Card Hover Animation Plagin-->
+    <script
+      type="text/javascript"
+      src="../../../assets/js/plugins/vanilla-tilt.min.js"
+    ></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector(".earnings-card"), {
+        max: 15,
+        speed: 1000,
+      });
+    </script>
+    <script src="../../../assets/js/plugins/chartjs.min.js"></script>
+    <script>
+      // generalChartLine
+      var generalChartLine = document
+        .getElementById("general-chart-line")
+        .getContext("2d");
+
+      var generalChartLine1 = generalChartLine.createLinearGradient(
+        0,
+        230,
+        0,
+        50
+      );
+
+      generalChartLine1.addColorStop(1, "rgba(33,82,255,0.1)");
+      generalChartLine1.addColorStop(0.2, "rgba(33,82,255,0.0)");
+      generalChartLine1.addColorStop(0, "rgba(33,82,255,0)"); //purple colors
+
+      new Chart(generalChartLine, {
+        type: "line",
+        data: {
+          labels: [
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec",
+          ],
+          datasets: [
+            {
+              label: "Tasks",
+              tension: 0.3,
+              pointRadius: 2,
+              pointBackgroundColor: "#4279FF",
+              borderColor: "#4279FF",
+              borderWidth: 2,
+              backgroundColor: generalChartLine1,
+              data: [40, 45, 42, 41, 40, 43, 40, 42, 39],
+              maxBarThickness: 6,
+              fill: true,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: false,
+            },
+          },
+          interaction: {
+            intersect: false,
+            mode: "index",
+          },
+          scales: {
+            y: {
+              grid: {
+                drawBorder: false,
+                display: false,
+                drawOnChartArea: false,
+                drawTicks: false,
+              },
+              ticks: {
+                display: false,
+              },
+            },
+            x: {
+              grid: {
+                drawBorder: false,
+                display: false,
+                drawOnChartArea: false,
+                drawTicks: false,
+              },
+              ticks: {
+                color: "#252f40",
+                padding: 10,
+              },
+            },
+            y: {
+              grid: {
+                drawBorder: false,
+                display: false,
+                drawOnChartArea: true,
+                drawTicks: false,
+                borderDash: [5, 5],
+              },
+              ticks: {
+                display: true,
+                padding: 10,
+                color: "#9ca2b7",
+              },
+            },
+            x: {
+              grid: {
+                drawBorder: false,
+                display: true,
+                drawOnChartArea: true,
+                drawTicks: false,
+                borderDash: [5, 5],
+              },
+              ticks: {
+                display: true,
+                padding: 10,
+                color: "#9ca2b7",
+              },
+            },
+          },
+        },
+      });
+
+      // doughnutChart
+      var doughnutChart = document
+        .getElementById("chart-doughnut")
+        .getContext("2d");
+      new Chart(doughnutChart, {
+        type: "doughnut",
+        data: {
+          labels: ["Done", "In progress"],
+          datasets: [
+            {
+              label: "Projects",
+              weight: 9,
+              cutout: 50,
+              tension: 0.9,
+              pointRadius: 2,
+              borderWidth: 2,
+              backgroundColor: ["#4279FF", "#a8b8d8"],
+              data: [75, 25],
+              fill: false,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: false,
+            },
+          },
+          interaction: {
+            intersect: false,
+            mode: "index",
+          },
+          scales: {
+            y: {
+              grid: {
+                drawBorder: false,
+                display: false,
+                drawOnChartArea: false,
+                drawTicks: false,
+              },
+              ticks: {
+                display: false,
+              },
+            },
+            x: {
+              grid: {
+                drawBorder: false,
+                display: false,
+                drawOnChartArea: false,
+                drawTicks: false,
+              },
+              ticks: {
+                display: false,
+              },
+            },
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,2092 @@
+<!DOCTYPE html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soft UI Dashboard PRO by Creative Tim</title>
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="../../../assets/js/theme/tailwind.config.js"></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/806941754d.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Main CSS Link -->
+    <link rel="stylesheet" href="../../../assets/css/style.css" />
+  </head>
+
+  <body class="relative dark:bg-[#141728]">
+    <section class="px-3 lg:px-6">
+      <!-- Side bar -->
+      <section class="sidebar" id="mainSidebar">
+        <div class="sidebar-content dark:bg-dark">
+          <!-- Header -->
+          <div class="pb-4 border-b">
+            <a
+              href="../../index.html"
+              class="flex items-center gap-2 w-full h-[50px]"
+            >
+              <img
+                src="../../assets/img/logo-ct-dark.png"
+                alt=""
+                class="w-8 dark-logo"
+              />
+              <img
+                src="../../assets/img/logo-ct.png"
+                alt=""
+                class="w-8 light-logo hidden"
+              />
+              <span
+                class="text-title dark:text-light/90 font-bold text-sm logo-text"
+              >
+                Soft UI Dashboard PRO
+              </span>
+            </a>
+          </div>
+
+          <!-- Links -->
+          <div>
+            <!-- DashBoard -->
+            <div class="py-5">
+              <button class="menuToggleBtn w-full flex gap-3 items-center p-3">
+                <span
+                  class="text-sm bg-light dark:bg-gray-300 text-title shadow-md py-1.5 px-2 rounded-md"
+                  id="side-dashboard-icon"
+                >
+                  <i class="fas fa-home"></i>
+                </span>
+                <div
+                  class="sidebar-link-text w-full flex gap-3 items-center justify-between text-paragraph dark:text-light/70"
+                >
+                  <span class="text-sm"> Dashboards </span>
+                  <span class="text-xs arrow">
+                    <i class="fas fa-chevron-down"></i>
+                  </span>
+                </div>
+              </button>
+
+              <div class="pl-6 toggleMenu">
+                <!--  -->
+                <ul class="page-lists text-paragraph dark:text-light/70">
+                  <li>
+                    <a href="" class="mini-link">D</a>
+                    <a href="../../index.html" class="link"> Default </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Pages s -->
+            <div class="pb-6 border-b">
+              <h2
+                class="text-title dark:text-light/60 uppercase text-xs font-bold pb-2"
+              >
+                pages
+              </h2>
+
+              <!-- Pages -->
+              <div class="page-link">
+                <button
+                  class="menuToggleBtn w-full bg-light dark:bg-gray-300 flex gap-3 items-center p-3 rounded-lg"
+                  style="box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%)"
+                >
+                  <span
+                    class="text-sm bg-gradient text-light py-1.5 px-2 rounded-md dashboard-icon"
+                    id="side-dashboard-icon"
+                  >
+                    <i class="fas fa-home"></i>
+                  </span>
+                  <div
+                    class="sidebar-link-text w-full flex gap-3 items-center justify-between"
+                  >
+                    <span class="font-semibold text-title text-sm">
+                      Pages
+                    </span>
+                    <span class="text-paragraph text-xs arrow arrow-rotate">
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </button>
+
+                <div class="pl-5 pt-1 pr-1 toggleMenu menu-show">
+                  <ul class="page-lists text-paragraph dark:text-light/70">
+                    <!--  Profile -->
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px] text-sm"
+                      >
+                        <span class="mini-link"> P </span>
+                        <span class="link"> Profile </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link"> P </a>
+                            <a
+                              href="./profile/profileOverview.html"
+                              class="link"
+                            >
+                              Profile Overview
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">T</a>
+                            <a href="./profile/teams.html" class="link">
+                              Teams
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">A</a>
+                            <a href="./profile/allProjects.html" class="link"
+                              >All Projects</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <!-- Users -->
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-sm mini-link"> U </span>
+                        <span class="text-sm link"> Users </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link"> R </a>
+                            <a href="./users/reports.html" class="link">
+                              Reports
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">N</a>
+                            <a href="./users/newUser.html" class="link"
+                              >New Users</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <!-- Accounts -->
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-sm mini-link"> A </span>
+                        <span class="text-sm link"> Accounts </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link"> S </a>
+                            <a href="./account/settings.html" class="link">
+                              Setting
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">B</a>
+                            <a href="./account/billing.html" class="link"
+                              >Billing</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">I</a>
+                            <a href="./account/invoice.html" class="link"
+                              >Invoice</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">S</a>
+                            <a href="./account/security.html" class="link"
+                              >Security</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <!-- Projects -->
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-sm mini-link"> P </span>
+                        <span class="text-sm link"> Projects </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">G</a>
+                            <a href="./projects/general.html" class="link"
+                              >General</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> T </a>
+                            <a href="./projects/timeline.html" class="link">
+                              Timeline
+                            </a>
+                          </li>
+
+                          <li>
+                            <a href="" class="mini-link">N</a>
+                            <a href="./projects/newProjects.html" class="link"
+                              >New Project</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <a href="" class="mini-link">P</a>
+                      <a href="./pricing.html" class="link">Pricing Page</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link"> M </a>
+                      <a href="./message.html" class="link"> Message </a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">W</a>
+                      <a href="./widgets.html" class="link">Widgets</a>
+                    </li>
+                    <li>
+                      <a
+                        href=""
+                        class="page-active text-title dark:text-light/80 mini-link"
+                        >C</a
+                      >
+                      <a
+                        href="./chart.html"
+                        class="page-active text-title dark:text-light/80 link"
+                        >Charts</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">S</a>
+                      <a href="./sweetAlert.html" class="link">Sweet Alert</a>
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">N</a>
+                      <a href="./notifications.html" class="link"
+                        >Notifications</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Applications -->
+              <div>
+                <button
+                  class="menuToggleBtn w-full flex gap-3 items-center p-3"
+                >
+                  <span
+                    class="text-sm bg-light dark:bg-gray-300 text-title shadow-md py-1.5 px-2 rounded-md dashboard-icon"
+                    id="side-dashboard-icon"
+                  >
+                    <i class="fas fa-tools"></i>
+                  </span>
+                  <div
+                    class="sidebar-link-text w-full flex gap-3 items-center justify-between"
+                  >
+                    <span class="text-paragraph dark:text-light/70 text-sm">
+                      Applications
+                    </span>
+                    <span
+                      class="text-paragraph dark:text-light/70 text-xs arrow"
+                    >
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </button>
+
+                <div class="pl-5 toggleMenu">
+                  <!--  -->
+                  <ul class="page-lists text-paragraph dark:text-light/70">
+                    <li>
+                      <a href="" class="mini-link">W</a>
+                      <a href="../applications/wizard.html" class="link"
+                        >Wizard</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">D</a>
+                      <a href="../applications/dataTables.html" class="link"
+                        >Data Tables</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">C</a>
+                      <a href="../applications/calendar.html" class="link"
+                        >Calender</a
+                      >
+                    </li>
+                    <li>
+                      <a href="" class="mini-link">A</a>
+                      <a href="../applications/analytics.html" class="link"
+                        >Analytics</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- E-commerce -->
+              <div>
+                <button
+                  class="menuToggleBtn w-full flex gap-3 items-center p-3"
+                >
+                  <span
+                    class="text-sm bg-light dark:bg-gray-300 text-title shadow-md py-1.5 px-2 rounded-md dashboard-icon"
+                    id="side-dashboard-icon"
+                  >
+                    <i class="bx bxs-shopping-bags"></i>
+                  </span>
+                  <div
+                    class="sidebar-link-text w-full flex gap-3 items-center justify-between text-paragraph dark:text-light/70"
+                  >
+                    <span class="text-sm"> E-commerce </span>
+                    <span
+                      class="text-paragraph dark:text-light/70 text-xs arrow"
+                    >
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </button>
+
+                <div class="pl-5 toggleMenu">
+                  <!--  -->
+                  <ul class="page-lists text-paragraph dark:text-light/70">
+                    <li>
+                      <a href="" class="mini-link"> O </a>
+                      <a href="../ecommerce/overview.html" class="link">
+                        Overview
+                      </a>
+                    </li>
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> P </span>
+                        <span class="text-[15px] link"> Products </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link"> N </a>
+                            <a
+                              href="../ecommerce/products/newProduct.html"
+                              class="link"
+                            >
+                              New Products
+                            </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> E </a>
+                            <a href="" class="link"> Edit Products </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> P </a>
+                            <a href="" class="link"> Products Page </a>
+                          </li>
+                          <li>
+                            <a href="" class="mini-link"> P </a>
+                            <a href="" class="link"> Products Lists </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> O </span>
+                        <span class="text-[15px] link"> Orders </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link"> O </a>
+                            <a
+                              href="../ecommerce/orders/orderList.html"
+                              class="link"
+                            >
+                              Order Lists
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Authentication -->
+              <div>
+                <button
+                  class="menuToggleBtn w-full flex gap-3 items-center p-3"
+                >
+                  <span
+                    class="text-sm bg-light dark:bg-gray-300 text-title shadow-md py-1.5 px-2 rounded-md dashboard-icon"
+                    id="side-dashboard-icon"
+                  >
+                    <i class="fas fa-file-alt"></i>
+                  </span>
+                  <div
+                    class="sidebar-link-text w-full flex gap-3 items-center justify-between text-paragraph dark:text-light/70 text-paragraph dark:text-light/70"
+                  >
+                    <span class="text-sm"> Authentication </span>
+                    <span class="text-xs arrow">
+                      <i class="fas fa-chevron-down"></i>
+                    </span>
+                  </div>
+                </button>
+
+                <div class="pl-5 toggleMenu">
+                  <!--  -->
+                  <ul class="page-lists text-paragraph dark:text-light/70">
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> S </span>
+                        <span class="text-[15px] link"> Sign In </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">B</a>
+                            <a
+                              href="../authentication/signin/basic.html"
+                              class="link"
+                              >Basic</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">C</a>
+                            <a
+                              href="../authentication/signin/cover.html"
+                              class="link"
+                              >Cover</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">I</a>
+                            <a
+                              href="../authentication/signin/illustration.html"
+                              class="link"
+                              >Illustration</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> S </span>
+                        <span class="text-[15px] link"> Sign Up </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">B</a>
+                            <a
+                              href="../authentication/signup/basic.html"
+                              class="link"
+                              >Basic</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">C</a>
+                            <a
+                              href="../authentication/signup/cover.html"
+                              class="link"
+                              >Cover</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">I</a>
+                            <a
+                              href="../authentication/signup/illustration.html"
+                              class="link"
+                              >Illustration</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> R </span>
+                        <span class="text-[15px] link"> Reset Password </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">B</a>
+                            <a
+                              href="../authentication/reset-password/basic.html"
+                              class="link"
+                              >Basic</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">C</a>
+                            <a
+                              href="../authentication/reset-password/cover.html"
+                              class="link"
+                              >Cover</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">I</a>
+                            <a
+                              href="../authentication/reset-password/illustration.html"
+                              class="link"
+                              >Illustration</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> L </span>
+                        <span class="text-[15px] link"> Lock </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">B</a>
+                            <a
+                              href="../authentication/look/basic.html"
+                              class="link"
+                              >Basic</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">C</a>
+                            <a
+                              href="../authentication/look/cover.html"
+                              class="link"
+                              >Cover</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">I</a>
+                            <a
+                              href="../authentication/look/illustration.html"
+                              class="link"
+                              >Illustration</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> 2 </span>
+                        <span class="text-[15px] link">
+                          2-Step Verification
+                        </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">B</a>
+                            <a
+                              href="../authentication/verification/basic.html"
+                              class="link"
+                              >Basic</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">C</a>
+                            <a
+                              href="../authentication/verification/cover.html"
+                              class="link"
+                              >Cover</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">I</a>
+                            <a
+                              href="../authentication/verification/illustration.html"
+                              class="link"
+                              >Illustration</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <button
+                        class="submenuToggleBtn relative w-full flex justify-between items-center p-[8px] pl-[32px]"
+                      >
+                        <span class="text-[15px] mini-link"> E </span>
+                        <span class="text-[15px] link"> Error </span>
+                        <span class="text-xs subArrow">
+                          <i class="fas fa-chevron-down"></i>
+                        </span>
+                      </button>
+
+                      <div class="toggleSubMenu">
+                        <ul>
+                          <li>
+                            <a href="" class="mini-link">E</a>
+                            <a
+                              href="../authentication/error/error404.html"
+                              class="link"
+                              >Error 404</a
+                            >
+                          </li>
+                          <li>
+                            <a href="" class="mini-link">E</a>
+                            <a
+                              href="../authentication/error/error500.html"
+                              class="link"
+                              >Error 500</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Footer -->
+          <div class="side-doc">
+            <span
+              class="text-sm bg-light dark:bg-gray-300 text-title py-1.5 px-2 rounded-md shadow-lg"
+              ><i class="fas fa-gem"> </i>
+            </span>
+            <div class="side-doc-text">
+              <div class="py-4 text-light">
+                <h3 class="font-semibold">Need help?</h3>
+                <p class="text-sm">Please check our docs</p>
+              </div>
+              <button
+                class="w-full bg-light dark:bg-gray-300 py-2 text-xs shadow rounded-lg font-bold"
+              >
+                DOCUMENTATION
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Main Content -->
+      <section class="main-section">
+        <header id="main-header" class="mt-5">
+          <div
+            class="dashboard-header-content lg:flex justify-between md:px-5 py-3 text-title/90 dark:text-light/70"
+          >
+            <!-- Left -->
+            <div class="flex gap-10 items-center">
+              <div>
+                <div class="items-center text-sm flex gap-1">
+                  <a href="" class="opacity-50">
+                    <i class="fas fa-home"></i>
+                  </a>
+                  <span>/</span>
+                  <a href="" class="opacity-50">Pages</a>
+                  <span>/</span>
+                  <span>Charts</span>
+                </div>
+                <p class="font-bold">Charts</p>
+              </div>
+
+              <button class="hidden lg:block text-xl" onclick="sidebarToggle()">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+
+            <!-- Right -->
+            <div>
+              <div class="flex justify-between gap-4 items-center text-[15px]">
+                <!-- search input -->
+                <div class="relative pt-1">
+                  <input
+                    type="text"
+                    placeholder="Type here..."
+                    class="w-40 lg:w-56 border p-2 rounded-lg text-sm outline-none pl-8 text-title"
+                  />
+                  <span class="absolute top-3 left-2.5 text-title">
+                    <i class="fas fa-search"></i>
+                  </span>
+                </div>
+
+                <!-- -- -->
+                <div class="flex items-center gap-4">
+                  <!-- Mobile sidebar Toggle Btn -->
+                  <button
+                    class="lg:hidden text-lg text-title/90"
+                    onclick="mobileSidebarToggle()"
+                    id="mobile-sidebar-btn"
+                  >
+                    <i class="fas fa-bars"></i>
+                  </button>
+                  <!-- Sign in -->
+                  <div>
+                    <a href="" class="flex items-center gap-1 font-semibold">
+                      <i class="fas fa-user"></i>
+                      <span class="hidden md:block">Sign In</span>
+                    </a>
+                  </div>
+
+                  <button
+                    class="rightSidebarShow-btn"
+                    onclick="rightSidebarShow()"
+                  >
+                    <i class="fas fa-cog"></i>
+                  </button>
+                  <div class="relative">
+                    <button
+                      class="notification-btn"
+                      onclick="notificationToggle()"
+                    >
+                      <i class="fas fa-bell"></i>
+                    </button>
+
+                    <!--Notification Dropdown -->
+                    <div
+                      class="notification w-80 shadow bg-light dark:bg-dark p-2 rounded-lg absolute right-[-20px] top-10 z-50"
+                      id="notification-dropdown"
+                    >
+                      <ul>
+                        <li
+                          class="cursor-pointer hover:bg-gray-100 p-2 rounded-lg mb-2"
+                        >
+                          <div class="flex gap-3">
+                            <div
+                              class="w-10 h-10 rounded-full overflow-hidden bg-title flex justify-center items-center"
+                            >
+                              <img
+                                src="../../../assets/img/team-2.jpg"
+                                alt=""
+                                class="w-full"
+                              />
+                            </div>
+                            <div>
+                              <h2 class="text-title/80 dark:text-light text-sm">
+                                <span class="font-bold">New message</span>
+                                <span> from Laur</span>
+                              </h2>
+                              <p
+                                class="text-xs text-paragraph font-semibold opacity-75"
+                              >
+                                <i class="fas fa-clock"></i>
+                                <span> 13 minutes ago</span>
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          class="cursor-pointer hover:bg-gray-100 p-2 rounded-lg mb-2"
+                        >
+                          <div class="flex gap-3">
+                            <div
+                              class="w-10 h-10 rounded-full overflow-hidden bg-title flex justify-center items-center"
+                            >
+                              <img
+                                src="../../../assets/img/logo-spotify.svg"
+                                alt=""
+                                class="w-full"
+                              />
+                            </div>
+                            <div>
+                              <h2 class="text-title/80 dark:text-light text-sm">
+                                <span class="font-bold">New message</span>
+                                <span> from Laur</span>
+                              </h2>
+                              <p
+                                class="text-xs text-paragraph font-semibold opacity-75"
+                              >
+                                <i class="fas fa-clock"></i>
+                                <span> 1 day ago</span>
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                        <li
+                          class="cursor-pointer hover:bg-gray-100 p-2 rounded-lg mb-2"
+                        >
+                          <div class="flex gap-3">
+                            <div
+                              class="w-10 h-10 rounded-full overflow-hidden bg-title flex justify-center items-center"
+                            >
+                              <img
+                                src="../../../assets/img/team-1.jpg"
+                                alt=""
+                                class="w-full"
+                              />
+                            </div>
+                            <div>
+                              <h2 class="text-title/80 dark:text-light text-sm">
+                                <span class="font-bold">New message</span>
+                                <span> from Laur</span>
+                              </h2>
+                              <p
+                                class="text-xs text-paragraph opacity-75 font-semibold"
+                              >
+                                <i class="fas fa-clock"></i>
+                                <span> 2 days ago</span>
+                              </p>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <!--Main Body -->
+        <section class="py-6">
+          <div class="mb-6">
+            <h2 class="text-title font-semibold text-xl">Charts</h2>
+            <p class="text-paragraph text-[15px]">
+              Charts on this page use Chart.js - Simple yet flexible JavaScript
+              charting for designers & developers.
+            </p>
+          </div>
+
+          <!-- Charts -->
+          <div class="grid md:grid-cols-2 gap-6">
+            <!-- Line chart -->
+            <div
+              class="bg-light shadow-[0_8px_26px_-4px_#14141426] rounded-xl p-4"
+            >
+              <h2 class="text-title font-semibold mb-4">Line chart</h2>
+
+              <div class="chart">
+                <canvas
+                  id="line-chart"
+                  class="chart-canvas"
+                  height="300"
+                ></canvas>
+              </div>
+            </div>
+
+            <!-- Line chart with gradient -->
+            <div
+              class="bg-light shadow-[0_8px_26px_-4px_#14141426] rounded-xl p-4"
+            >
+              <h2 class="text-title font-semibold mb-4">
+                Line chart with gradient
+              </h2>
+
+              <div class="chart">
+                <canvas
+                  id="line-chart-gradient"
+                  class="chart-canvas"
+                  height="300"
+                ></canvas>
+              </div>
+            </div>
+
+            <!-- Bar chart -->
+            <div
+              class="bg-light shadow-[0_8px_26px_-4px_#14141426] rounded-xl p-4"
+            >
+              <h2 class="text-title font-semibold mb-4">Bar chart</h2>
+
+              <div class="chart">
+                <canvas
+                  id="bar-chart"
+                  class="chart-canvas"
+                  height="300"
+                ></canvas>
+              </div>
+            </div>
+
+            <!-- Bar chart horizontal -->
+            <div
+              class="bg-light shadow-[0_8px_26px_-4px_#14141426] rounded-xl p-4"
+            >
+              <h2 class="text-title font-semibold mb-4">
+                Bar chart horizontal
+              </h2>
+
+              <div class="chart">
+                <canvas
+                  id="bar-chart-horizontal"
+                  class="chart-canvas"
+                  height="300"
+                ></canvas>
+              </div>
+            </div>
+
+            <!-- Mixed chart-->
+            <div
+              class="bg-light shadow-[0_8px_26px_-4px_#14141426] rounded-xl p-4"
+            >
+              <h2 class="text-title font-semibold mb-4">Mixed chart</h2>
+
+              <div class="chart">
+                <canvas
+                  id="mixed-chart"
+                  class="chart-canvas"
+                  height="300"
+                ></canvas>
+              </div>
+            </div>
+
+            <!-- Bubble chart -->
+            <div
+              class="bg-light shadow-[0_8px_26px_-4px_#14141426] rounded-xl p-4"
+            >
+              <h2 class="text-title font-semibold mb-4">Bubble chart</h2>
+
+              <div class="chart">
+                <canvas
+                  id="bubble-chart"
+                  class="chart-canvas"
+                  height="120"
+                ></canvas>
+              </div>
+            </div>
+
+            <!-- doughnut-chart -->
+            <div
+              class="bg-light shadow-[0_8px_26px_-4px_#14141426] rounded-xl p-4"
+            >
+              <h2 class="text-title font-semibold mb-4">doughnut-chart</h2>
+
+              <div class="chart">
+                <canvas
+                  id="doughnut-chart"
+                  class="chart-canvas"
+                  height="300"
+                ></canvas>
+              </div>
+            </div>
+
+            <!-- Pie chart -->
+            <div
+              class="bg-light shadow-[0_8px_26px_-4px_#14141426] rounded-xl p-4"
+            >
+              <h2 class="text-title font-semibold mb-4">Pie chart</h2>
+
+              <div class="chart">
+                <canvas
+                  id="pie-chart"
+                  class="chart-canvas"
+                  height="300"
+                ></canvas>
+              </div>
+            </div>
+
+            <!-- Radar chart -->
+            <div
+              class="bg-light shadow-[0_8px_26px_-4px_#14141426] rounded-xl p-4"
+            >
+              <h2 class="text-title font-semibold mb-4">Radar chart</h2>
+
+              <div class="chart">
+                <canvas
+                  id="radar-chart"
+                  class="chart-canvas"
+                  height="100"
+                ></canvas>
+              </div>
+            </div>
+
+            <!-- Polar chart -->
+            <div
+              class="bg-light shadow-[0_8px_26px_-4px_#14141426] rounded-xl p-4"
+            >
+              <h2 class="text-title font-semibold mb-4">Polar chart</h2>
+
+              <div class="chart">
+                <canvas
+                  id="polar-chart"
+                  class="chart-canvas"
+                  height="100"
+                ></canvas>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-------- Footer -------->
+        <footer class="pt-5 pb-6">
+          <div class="lg:flex justify-center lg:justify-between">
+            <div class="mb-5 lg:mb-0">
+              <p
+                class="text-[15px] text-paragraph dark:text-light/70 text-center"
+              >
+                © 2023, made with ❤ by
+                <a href="" class="font-bold">Creative Tim</a> for a better web.
+              </p>
+            </div>
+
+            <nav class="text-center text-paragraph text-sm font-medium">
+              <a href="" class="mr-4 p-2">Creative Tim</a>
+              <a href="" class="mr-4 p-2">About Us</a>
+              <a href="" class="mr-4 p-2">Blog</a>
+              <a href="" class="mr-4 p-2">License</a>
+            </nav>
+          </div>
+        </footer>
+      </section>
+
+      <!------------- Right Side bar -------------->
+      <div
+        class="right-sidebar fixed bg-light dark:bg-dark top-0 right-0 w-[350px] h-[100%] z-[9999] p-6 shadow overflow-auto"
+        id="rightSidebar"
+      >
+        <div class="flex justify-between pb-6 border-b">
+          <div>
+            <h2
+              class="text-title dark:text-light dark:text-light text-xl font-semibold"
+            >
+              Soft UI Configurator
+            </h2>
+            <p
+              class="text-paragraph dark:text-light/70 dark:text-light/80 text-base"
+            >
+              See our dashboard options
+            </p>
+          </div>
+          <div class="text-title dark:text-light dark:text-light/70 text-sm">
+            <button onclick="rightSidebarClose()">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="pt-5">
+          <h2
+            class="text-title dark:text-light dark:text-light/70 text-[17px] font-semibold pb-2"
+          >
+            Sidebar Colors
+          </h2>
+          <div class="flex gap-2">
+            <button
+              class="color color-active bg-gradient w-6 h-6 rounded-full"
+            ></button>
+            <button class="color bg-title w-6 h-6 rounded-full shadow"></button>
+            <button
+              class="color bg-blue-600 w-6 h-6 rounded-full shadow"
+            ></button>
+            <button
+              class="color bg-green-500 w-6 h-6 rounded-full shadow"
+            ></button>
+            <button
+              class="color bg-orange-500 w-6 h-6 rounded-full shadow"
+            ></button>
+            <button
+              class="color bg-red-500 w-6 h-6 rounded-full shadow"
+            ></button>
+          </div>
+        </div>
+
+        <!-- Sidenav Bg Type -->
+        <div class="pt-5">
+          <h2
+            class="text-title dark:text-light dark:text-light text-[17px] font-semibold"
+          >
+            Sidenav Type
+          </h2>
+          <p
+            class="text-paragraph dark:text-light/70 dark:text-light/80 text-sm"
+          >
+            Choose between 2 different sidenav types.
+          </p>
+          <div class="pt-3 flex gap-2">
+            <button
+              class="sidebar-bg-toggle-btn btn-active"
+              id="transparent-btn"
+              onclick="handelTransparentBtn()"
+            >
+              Transparent
+            </button>
+            <button
+              class="unactive-btn sidebar-bg-toggle-btn"
+              id="white-btn"
+              onclick="handelWhiteBtn()"
+            >
+              White
+            </button>
+          </div>
+        </div>
+
+        <!--  Navbar Fixed Toggle -->
+        <div class="pt-5 border-b">
+          <h2
+            class="text-title dark:text-light dark:text-light text-[17px] font-semibold pb-2"
+          >
+            Navbar Fixed
+          </h2>
+          <label class="relative inline-flex items-center mb-3 cursor-pointer">
+            <input
+              type="checkbox"
+              value="true"
+              class="sr-only peer"
+              checked
+              id="fixedNavToggle-btn"
+              onclick="fixedNavToggle(event)"
+            />
+            <div
+              class="w-11 h-6 bg-gray-200 outline-none peer-focus:ring-0 rounded-full peer-checked:after:translate-x-full peer-checked:after:border-white after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-title"
+            ></div>
+          </label>
+        </div>
+
+        <div class="pt-3 border-b">
+          <h2
+            class="text-title dark:text-light dark:text-light text-[17px] font-semibold pb-2"
+          >
+            Sidenav Mini
+          </h2>
+          <label class="relative inline-flex items-center mb-3 cursor-pointer">
+            <input
+              type="checkbox"
+              value=""
+              class="sr-only peer"
+              onclick="sidebarToggle()"
+              id="sidebarToggle-rightSideBtn"
+            />
+            <div
+              class="w-11 h-6 bg-gray-200 outline-none peer-focus:ring-0 rounded-full peer-checked:after:translate-x-full peer-checked:after:border-white after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-title"
+            ></div>
+          </label>
+        </div>
+
+        <div class="pt-3 border-b">
+          <h2
+            class="text-title dark:text-light dark:text-light text-[17px] font-semibold pb-2"
+          >
+            Light/Dark
+          </h2>
+          <label class="relative inline-flex items-center mb-3 cursor-pointer">
+            <input
+              type="checkbox"
+              value=""
+              class="sr-only peer"
+              onclick="themeToggle(event)"
+              id="themeToggleBtn"
+            />
+            <div
+              class="w-11 h-6 bg-gray-200 outline-none peer-focus:ring-0 rounded-full peer-checked:after:translate-x-full peer-checked:after:border-white after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-title"
+            ></div>
+          </label>
+        </div>
+
+        <div class="pt-5">
+          <button
+            class="uppercase w-full py-3.5 text-light bg-gradient mb-4 shadow rounded-lg text-xs font-bold scale-[.98] hover:scale-[1] duration-200"
+          >
+            Buy now
+          </button>
+          <button
+            class="uppercase w-full py-3.5 text-light bg-title mb-4 shadow rounded-lg text-xs font-bold scale-[.98] hover:scale-[1] duration-200"
+          >
+            free demo
+          </button>
+          <button
+            class="uppercase w-full py-3.5 text-title dark:text-light border border-title mb-4 shadow rounded-lg text-xs font-bold scale-[.98] hover:scale-[1] duration-200"
+          >
+            View documentation
+          </button>
+        </div>
+
+        <div class="flex gap-2 justify-center items-center">
+          <div
+            class="border rounded-md text-sm text-title dark:text-light font-semibold"
+          >
+            <a
+              href=""
+              target="_blank"
+              class="border-r px-2 py-1 bg-gray-200 dark:bg-dark inline-block rounded-l-md"
+              ><i class="far fa-star"></i>Star</a
+            >
+            <a href="" target="_blank" class="px-2 py-1 inline-block">30</a>
+          </div>
+        </div>
+
+        <div class="pt-5">
+          <h2 class="text-center text-title dark:text-light font-semibold pb-3">
+            Thank you for sharing!
+          </h2>
+          <div class="flex gap-4 justify-center">
+            <button
+              class="uppercase px-5 py-3 text-light bg-title mb-4 shadow rounded-lg text-xs font-bold scale-[.98] hover:scale-[1] duration-200"
+            >
+              <i class="fab fa-twitter"></i> twitter
+            </button>
+            <button
+              class="uppercase px-5 py-3 text-light bg-title mb-4 shadow rounded-lg text-xs font-bold scale-[.98] hover:scale-[1] duration-200"
+            >
+              <i class="fab fa-facebook-square"></i> facebook
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <button
+      onclick="rightSidebarShow()"
+      class="rightSidebarShow-btn fixed right-[40px] bottom-[50px] w-12 h-12 bg-light flex justify-center items-center shadow-[1px_1px_18px_-8px_#000] rounded-full text-xl text-title z-50"
+    >
+      <i class="fas fa-cog"></i>
+    </button>
+
+    <script src="../../assets/js/script.js"></script>
+    <script src="../../assets/js/plugins/chartjs.min.js"></script>
+    <!-- Chart -->
+    <script>
+      // Line chart
+      var ctx1 = document.getElementById("line-chart").getContext("2d");
+
+      new Chart(ctx1, {
+        type: "line",
+        data: {
+          labels: [
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec",
+          ],
+          datasets: [
+            {
+              label: "Organic Search",
+              tension: 0.4,
+              borderWidth: 0,
+              pointRadius: 2,
+              pointBackgroundColor: "#cb0c9f",
+              borderColor: "#cb0c9f",
+              borderWidth: 3,
+              backgroundColor: gradientStroke1,
+              data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
+              maxBarThickness: 6,
+            },
+            {
+              label: "Referral",
+              tension: 0.4,
+              borderWidth: 0,
+              pointRadius: 2,
+              pointBackgroundColor: "#3A416F",
+              borderColor: "#3A416F",
+              borderWidth: 3,
+              backgroundColor: gradientStroke2,
+              data: [30, 90, 40, 140, 290, 290, 340, 230, 400],
+              maxBarThickness: 6,
+            },
+            {
+              label: "Direct",
+              tension: 0.4,
+              borderWidth: 0,
+              pointRadius: 2,
+              pointBackgroundColor: "#17c1e8",
+              borderColor: "#17c1e8",
+              borderWidth: 3,
+              backgroundColor: gradientStroke2,
+              data: [40, 80, 70, 90, 30, 90, 140, 130, 200],
+              maxBarThickness: 6,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: false,
+            },
+          },
+          interaction: {
+            intersect: false,
+            mode: "index",
+          },
+          scales: {
+            y: {
+              grid: {
+                drawBorder: false,
+                display: true,
+                drawOnChartArea: true,
+                drawTicks: false,
+                borderDash: [5, 5],
+              },
+              ticks: {
+                display: true,
+                padding: 10,
+                color: "#b2b9bf",
+                font: {
+                  size: 11,
+                  family: "Open Sans",
+                  style: "normal",
+                  lineHeight: 2,
+                },
+              },
+            },
+            x: {
+              grid: {
+                drawBorder: false,
+                display: true,
+                drawOnChartArea: true,
+                drawTicks: true,
+                borderDash: [5, 5],
+              },
+              ticks: {
+                display: true,
+                color: "#b2b9bf",
+                padding: 10,
+                font: {
+                  size: 11,
+                  family: "Open Sans",
+                  style: "normal",
+                  lineHeight: 2,
+                },
+              },
+            },
+          },
+        },
+      });
+
+      // Line chart with gradient
+      var ctx2 = document
+        .getElementById("line-chart-gradient")
+        .getContext("2d");
+
+      var gradientStroke1 = ctx2.createLinearGradient(0, 230, 0, 50);
+
+      gradientStroke1.addColorStop(1, "rgba(203,12,159,0.2)");
+      gradientStroke1.addColorStop(0.2, "rgba(72,72,176,0.0)");
+      gradientStroke1.addColorStop(0, "rgba(203,12,159,0)"); //purple colors
+
+      var gradientStroke2 = ctx2.createLinearGradient(0, 230, 0, 50);
+
+      gradientStroke2.addColorStop(1, "rgba(20,23,39,0.2)");
+      gradientStroke2.addColorStop(0.2, "rgba(72,72,176,0.0)");
+      gradientStroke2.addColorStop(0, "rgba(20,23,39,0)"); //purple colors
+
+      new Chart(ctx2, {
+        type: "line",
+        data: {
+          labels: [
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec",
+          ],
+          datasets: [
+            {
+              label: "Mobile apps",
+              tension: 0.4,
+              borderWidth: 0,
+              pointRadius: 0,
+              borderColor: "#cb0c9f",
+              borderWidth: 3,
+              backgroundColor: gradientStroke1,
+              fill: true,
+              data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
+              maxBarThickness: 6,
+            },
+            {
+              label: "Websites",
+              tension: 0.4,
+              borderWidth: 0,
+              pointRadius: 0,
+              borderColor: "#3A416F",
+              borderWidth: 3,
+              backgroundColor: gradientStroke2,
+              fill: true,
+              data: [30, 90, 40, 140, 290, 290, 340, 230, 400],
+              maxBarThickness: 6,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: false,
+            },
+          },
+          interaction: {
+            intersect: false,
+            mode: "index",
+          },
+          scales: {
+            y: {
+              grid: {
+                drawBorder: false,
+                display: true,
+                drawOnChartArea: true,
+                drawTicks: false,
+                borderDash: [5, 5],
+              },
+              ticks: {
+                display: true,
+                padding: 10,
+                color: "#b2b9bf",
+                font: {
+                  size: 11,
+                  family: "Open Sans",
+                  style: "normal",
+                  lineHeight: 2,
+                },
+              },
+            },
+            x: {
+              grid: {
+                drawBorder: false,
+                display: false,
+                drawOnChartArea: false,
+                drawTicks: false,
+                borderDash: [5, 5],
+              },
+              ticks: {
+                display: true,
+                color: "#b2b9bf",
+                padding: 10,
+                font: {
+                  size: 11,
+                  family: "Open Sans",
+                  style: "normal",
+                  lineHeight: 2,
+                },
+              },
+            },
+          },
+        },
+      });
+
+      // Bar chart
+      var ctx5 = document.getElementById("bar-chart").getContext("2d");
+
+      new Chart(ctx5, {
+        type: "bar",
+        data: {
+          labels: ["16-20", "21-25", "26-30", "31-36", "36-42", "42+"],
+          datasets: [
+            {
+              label: "Sales by age",
+              weight: 5,
+              borderWidth: 0,
+              borderRadius: 4,
+              backgroundColor: "#3A416F",
+              data: [15, 20, 12, 60, 20, 15],
+              fill: false,
+              maxBarThickness: 35,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: false,
+            },
+          },
+          scales: {
+            y: {
+              grid: {
+                drawBorder: false,
+                display: true,
+                drawOnChartArea: true,
+                drawTicks: false,
+                borderDash: [5, 5],
+              },
+              ticks: {
+                display: true,
+                padding: 10,
+                color: "#9ca2b7",
+              },
+            },
+            x: {
+              grid: {
+                drawBorder: false,
+                display: false,
+                drawOnChartArea: true,
+                drawTicks: true,
+              },
+              ticks: {
+                display: true,
+                color: "#9ca2b7",
+                padding: 10,
+              },
+            },
+          },
+        },
+      });
+
+      // Bar chart horizontal
+      var ctx6 = document
+        .getElementById("bar-chart-horizontal")
+        .getContext("2d");
+
+      new Chart(ctx6, {
+        type: "bar",
+        data: {
+          labels: ["16-20", "21-25", "26-30", "31-36", "36-42", "42+"],
+          datasets: [
+            {
+              label: "Sales by age",
+              weight: 5,
+              borderWidth: 0,
+              borderRadius: 4,
+              backgroundColor: "#3A416F",
+              data: [15, 20, 12, 60, 20, 15],
+              fill: false,
+            },
+          ],
+        },
+        options: {
+          indexAxis: "y",
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: false,
+            },
+          },
+          scales: {
+            y: {
+              grid: {
+                drawBorder: false,
+                display: true,
+                drawOnChartArea: true,
+                drawTicks: false,
+                borderDash: [5, 5],
+              },
+              ticks: {
+                display: true,
+                padding: 10,
+                color: "#9ca2b7",
+              },
+            },
+            x: {
+              grid: {
+                drawBorder: false,
+                display: false,
+                drawOnChartArea: true,
+                drawTicks: true,
+              },
+              ticks: {
+                display: true,
+                color: "#9ca2b7",
+                padding: 10,
+              },
+            },
+          },
+        },
+      });
+
+      // Mixed chart
+      var ctx7 = document.getElementById("mixed-chart").getContext("2d");
+
+      new Chart(ctx7, {
+        data: {
+          labels: [
+            "Apr",
+            "May",
+            "Jun",
+            "Jul",
+            "Aug",
+            "Sep",
+            "Oct",
+            "Nov",
+            "Dec",
+          ],
+          datasets: [
+            {
+              type: "bar",
+              label: "Organic Search",
+              weight: 5,
+              tension: 0.4,
+              borderWidth: 0,
+              pointBackgroundColor: "#3A416F",
+              borderColor: "#3A416F",
+              backgroundColor: "#3A416F",
+              borderRadius: 4,
+              borderSkipped: false,
+              data: [50, 40, 300, 220, 500, 250, 400, 230, 500],
+              maxBarThickness: 10,
+            },
+            {
+              type: "line",
+              label: "Referral",
+              tension: 0.4,
+              borderWidth: 0,
+              pointRadius: 0,
+              pointBackgroundColor: "#cb0c9f",
+              borderColor: "#cb0c9f",
+              borderWidth: 3,
+              backgroundColor: gradientStroke1,
+              data: [30, 90, 40, 140, 290, 290, 340, 230, 400],
+              fill: true,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: false,
+            },
+          },
+          interaction: {
+            intersect: false,
+            mode: "index",
+          },
+          scales: {
+            y: {
+              grid: {
+                drawBorder: false,
+                display: true,
+                drawOnChartArea: true,
+                drawTicks: false,
+                borderDash: [5, 5],
+              },
+              ticks: {
+                display: true,
+                padding: 10,
+                color: "#b2b9bf",
+                font: {
+                  size: 11,
+                  family: "Open Sans",
+                  style: "normal",
+                  lineHeight: 2,
+                },
+              },
+            },
+            x: {
+              grid: {
+                drawBorder: false,
+                display: true,
+                drawOnChartArea: true,
+                drawTicks: true,
+                borderDash: [5, 5],
+              },
+              ticks: {
+                display: true,
+                color: "#b2b9bf",
+                padding: 10,
+                font: {
+                  size: 11,
+                  family: "Open Sans",
+                  style: "normal",
+                  lineHeight: 2,
+                },
+              },
+            },
+          },
+        },
+      });
+
+      // Bubble chart
+      var ctx8 = document.getElementById("bubble-chart").getContext("2d");
+
+      new Chart(ctx8, {
+        type: "bubble",
+        data: {
+          labels: ["0", "10", "20", "30", "40", "50", "60", "70", "80", "90"],
+          datasets: [
+            {
+              label: "Dataset 1",
+              data: [
+                {
+                  x: 100,
+                  y: 0,
+                  r: 10,
+                },
+                {
+                  x: 60,
+                  y: 30,
+                  r: 20,
+                },
+                {
+                  x: 40,
+                  y: 350,
+                  r: 10,
+                },
+                {
+                  x: 80,
+                  y: 80,
+                  r: 10,
+                },
+                {
+                  x: 20,
+                  y: 30,
+                  r: 15,
+                },
+                {
+                  x: 0,
+                  y: 100,
+                  r: 5,
+                },
+              ],
+              backgroundColor: "#cb0c9f",
+            },
+            {
+              label: "Dataset 2",
+              data: [
+                {
+                  x: 70,
+                  y: 40,
+                  r: 10,
+                },
+                {
+                  x: 30,
+                  y: 60,
+                  r: 20,
+                },
+                {
+                  x: 10,
+                  y: 300,
+                  r: 25,
+                },
+                {
+                  x: 60,
+                  y: 200,
+                  r: 10,
+                },
+                {
+                  x: 50,
+                  y: 300,
+                  r: 15,
+                },
+                {
+                  x: 20,
+                  y: 350,
+                  r: 5,
+                },
+              ],
+              backgroundColor: "#3A416F",
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: {
+              display: false,
+            },
+          },
+          scales: {
+            y: {
+              grid: {
+                drawBorder: false,
+                display: true,
+                drawOnChartArea: true,
+                drawTicks: false,
+                borderDash: [5, 5],
+              },
+              ticks: {
+                display: true,
+                padding: 10,
+                color: "#b2b9bf",
+                font: {
+                  size: 11,
+                  family: "Open Sans",
+                  style: "normal",
+                  lineHeight: 2,
+                },
+              },
+            },
+            x: {
+              grid: {
+                drawBorder: false,
+                display: true,
+                drawOnChartArea: true,
+                drawTicks: false,
+                borderDash: [5, 5],
+              },
+              ticks: {
+                display: true,
+                color: "#b2b9bf",
+                padding: 10,
+                font: {
+                  size: 11,
+                  family: "Open Sans",
+                  style: "normal",
+                  lineHeight: 2,
+                },
+              },
+            },
+          },
+        },
+      });
+
+      // Doughnut chart
+      var ctx3 = document.getElementById("doughnut-chart").getContext("2d");
+
+      new Chart(ctx3, {
+        type: "doughnut",
+        data: {
+          labels: ["Creative Tim", "Github", "Bootsnipp", "Dev.to", "Codeinwp"],
+          datasets: [
+            {
+              label: "Projects",
+              weight: 9,
+              cutout: 60,
+              tension: 0.9,
+              pointRadius: 2,
+              borderWidth: 2,
+              backgroundColor: [
+                "#2152ff",
+                "#3A416F",
+                "#f53939",
+                "#a8b8d8",
+                "#cb0c9f",
+              ],
+              data: [15, 20, 12, 60, 20],
+              fill: false,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: false,
+            },
+          },
+          interaction: {
+            intersect: false,
+            mode: "index",
+          },
+          scales: {
+            y: {
+              grid: {
+                drawBorder: false,
+                display: false,
+                drawOnChartArea: false,
+                drawTicks: false,
+              },
+              ticks: {
+                display: false,
+              },
+            },
+            x: {
+              grid: {
+                drawBorder: false,
+                display: false,
+                drawOnChartArea: false,
+                drawTicks: false,
+              },
+              ticks: {
+                display: false,
+              },
+            },
+          },
+        },
+      });
+
+      // Pie chart
+      var ctx4 = document.getElementById("pie-chart").getContext("2d");
+
+      new Chart(ctx4, {
+        type: "pie",
+        data: {
+          labels: ["Facebook", "Direct", "Organic", "Referral"],
+          datasets: [
+            {
+              label: "Projects",
+              weight: 9,
+              cutout: 0,
+              tension: 0.9,
+              pointRadius: 2,
+              borderWidth: 2,
+              backgroundColor: ["#17c1e8", "#cb0c9f", "#3A416F", "#a8b8d8"],
+              data: [15, 20, 12, 60],
+              fill: false,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: {
+              display: false,
+            },
+          },
+          interaction: {
+            intersect: false,
+            mode: "index",
+          },
+          scales: {
+            y: {
+              grid: {
+                drawBorder: false,
+                display: false,
+                drawOnChartArea: false,
+                drawTicks: false,
+              },
+              ticks: {
+                display: false,
+              },
+            },
+            x: {
+              grid: {
+                drawBorder: false,
+                display: false,
+                drawOnChartArea: false,
+                drawTicks: false,
+              },
+              ticks: {
+                display: false,
+              },
+            },
+          },
+        },
+      });
+
+      // Radar chart
+      var ctx9 = document.getElementById("radar-chart").getContext("2d");
+
+      new Chart(ctx9, {
+        type: "radar",
+        data: {
+          labels: [
+            "English",
+            "Maths",
+            "Physics",
+            "Chemistry",
+            "Biology",
+            "History",
+          ],
+          datasets: [
+            {
+              label: "Student A",
+              backgroundColor: "rgba(58,65,111,0.2)",
+              data: [65, 75, 70, 80, 60, 80],
+              borderDash: [5, 5],
+            },
+            {
+              label: "Student B",
+              backgroundColor: "rgba(203,12,159,0.2)",
+              data: [54, 65, 60, 70, 70, 75],
+            },
+          ],
+        },
+        options: {
+          plugins: {
+            legend: {
+              display: false,
+            },
+          },
+        },
+      });
+
+      // Radar chart
+      var ctx10 = document.getElementById("polar-chart").getContext("2d");
+
+      new Chart(ctx10, {
+        type: "polarArea",
+        data: {
+          labels: ["Red", "Green", "Yellow", "Grey", "Blue"],
+          datasets: [
+            {
+              label: "My First Dataset",
+              data: [11, 16, 7, 3, 14],
+              backgroundColor: [
+                "#17c1e8",
+                "#cb0c9f",
+                "#3A416F",
+                "#a8b8d8",
+                "#82d616",
+              ],
+            },
+          ],
+        },
+        options: {
+          plugins: {
+            legend: {
+              display: false,
+            },
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
